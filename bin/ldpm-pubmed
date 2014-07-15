@@ -29,7 +29,6 @@ if(argv.v){
   process.exit(0);
 }
 
-//if cloudant: use sha:true
 var ldpm = new Ldpm(process.cwd());
 
 ldpm.on('log', console.log);
@@ -58,7 +57,7 @@ if (argv._[0] === 'convert'){
 
 function _fail(err){
   if(err){
-    console.error('ldpm'.grey +  ' ERR! '.red + err.message + (('code' in err) ? ' (' + err.code + ')': ''));
+    console.error('ldpm-pubmed'.grey +  ' ERR! '.red + err.message + (('code' in err) ? ' (' + err.code + ')': ''));
     process.exit(1);
   }
 };

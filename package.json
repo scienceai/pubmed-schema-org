@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sballesteros/ldpm-pubmed.git"
+    "url": "git://github.com/standard-analytics/ldpm-pubmed.git"
   },
   "keywords": [
     "pubmed",
@@ -23,7 +23,7 @@
   "author": "Sebastien Ballesteros",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sballesteros/ldpm-pubmed/issues"
+    "url": "https://github.com/standard-analytics/ldpm-pubmed/issues"
   },
   "dependencies": {
     "ldpm": "*",
