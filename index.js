@@ -15,7 +15,7 @@ function convert(id, opts, callback){
     opts = {};
   }
 
-  var uri = "http://www.pubmedcentral.nih.gov/utils/idconv/v1.0/?ids=" + id + '&format=json&versions=no';
+  var uri = "http://www.pubmedcentral.nih.gov/utils/idconv/v1.0/?ids=" + id + '&format=json';
   that.logHttp('GET', uri);
   request(uri,function(error, response, body){
     if(error) return callback(error);
