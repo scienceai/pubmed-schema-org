@@ -1,0 +1,64 @@
+#!/usr/bin/env node
+
+var util = require('util')
+  , ldpmPubmed = require('..')
+  , Ldpm = require('ldpm')
+  , optimist = require('optimist')
+  , colors = require('colors')
+  , os = require('os');
+
+var argv = optimist
+  .usage(
+    [
+      'Usage: ldpm-pubmed <command> [options] where command is:',
+      '  - convert <id>',
+      '  - help [command]',
+    ].join(os.EOL)
+  )
+  .alias('h', 'help').describe('h', 'print usage')
+  .alias('v', 'version').describe('v', 'print version number')
+  .argv;
+
+if(argv.h){
+  console.log(optimist.help());
+  process.exit(0);
+}
+
+if(argv.v){
+  console.log(require('../package.json').version);
+  process.exit(0);
+}
+
+//if cloudant: use sha:true
+var ldpm = new Ldpm(process.cwd());
+
+ldpm.on('log', console.log);
+
+if (argv._[0] === 'convert'){
+
+  (function(){
+    var id = argv._[1].toString();
+
+    ldpmPubmed.convert.call(ldpm, id, function(err, pkg){
+      if(err) _fail(err);
+      fs.writeFileSync(path.resolve(ldpm.root, 'package.jsonld'), JSON.stringify(pkg, null, 2));
+    });
+    
+  })();
+
+} else if (argv._[0] === 'help'){
+
+  console.log(optimist.help());
+
+} else {
+
+  _fail(new Error('invalid command'));
+
+};
+
+function _fail(err){
+  if(err){
+    console.error('ldpm'.grey +  ' ERR! '.red + err.message + (('code' in err) ? ' (' + err.code + ')': ''));
+    process.exit(1);
+  }
+};
