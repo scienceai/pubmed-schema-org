@@ -152,7 +152,6 @@
         }
       ],
       "@type": "ScholarlyArticle",
-      "alternateName": "Sounds Move a Visual Object",
       "publisher": {
         "@type": "Organization",
         "name": "Public Library of Science",
@@ -200,6 +199,7 @@
       "pmid": "20808861",
       "pmcid": "PMC2924383",
       "headline": "Sounds Move a Static Visual Object",
+      "alternativeHeadline": "Sounds Move a Visual Object",
       "issue": 8,
       "volume": 5,
       "citation": [

@@ -112,7 +112,6 @@
         }
       ],
       "@type": "ScholarlyArticle",
-      "alternateName": "Factors Limiting Performance in Marathon Runners",
       "publisher": {
         "@type": "Organization",
         "name": "Public Library of Science",
@@ -164,6 +163,7 @@
       "pmid": "20975938",
       "pmcid": "PMC2958805",
       "headline": "Metabolic Factors Limiting Performance in Marathon Runners",
+      "alternativeHeadline": "Factors Limiting Performance in Marathon Runners",
       "issue": 10,
       "volume": 6,
       "citation": [
