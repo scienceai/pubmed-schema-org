@@ -1,7 +1,8 @@
 var url = require('url')
   , request = require('request')
   , pubmed = require('./lib/pubmed').pubmed
-  , oapmc = require('./lib/oapmc').oapmc;
+  , oapmc = require('./lib/oapmc').oapmc
+  , jats = require('./lib/jats');
 
 /**
  * 'this' is an Ldpm instance
@@ -53,3 +54,4 @@ function convert(id, opts, callback){
 };
 
 exports.convert = convert;
+exports.jats = jats;

@@ -65,7 +65,7 @@
     "name": "Standard Analytics IO",
     "email": "contact@standardanalytics.io"
   },
-  "figure": [
+  "image": [
     {
       "name": "pone-0012255-g001",
       "alternateName": "Figure 1",
@@ -200,6 +200,12 @@
       "pmcid": "PMC2924383",
       "headline": "Sounds Move a Static Visual Object",
       "alternativeHeadline": "Sounds Move a Visual Object",
+      "about": [
+        {
+          "name": "abstract",
+          "description": "BackgroundVision provides the most salient information with regard to stimulus motion, but audition can also provide important cues that affect visual motion perception. Here, we show that sounds containing no motion or positional cues can induce illusory visual motion perception for static visual objects.Methodology/Principal FindingsTwo circles placed side by side were presented in alternation producing apparent motion perception and each onset was accompanied by a tone burst of a specific and unique frequency. After exposure to this visual apparent motion with tones for a few minutes, the tones became drivers for illusory motion perception. When the flash onset was synchronized to tones of alternating frequencies, a circle blinking at a fixed location was perceived as lateral motion in the same direction as the previously exposed apparent motion. Furthermore, the effect lasted at least for a few days. The effect was well observed at the retinal position that was previously exposed to apparent motion with tone bursts.Conclusions/SignificanceThe present results indicate that strong association between sound sequence and visual motion is easily formed within a short period and that, after forming the association, sounds are able to trigger visual motion perception for a static visual object."
+        }
+      ],
       "issue": 8,
       "volume": 5,
       "citation": [

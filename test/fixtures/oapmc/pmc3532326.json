@@ -6,7 +6,11 @@
   ],
   "datePublished": "2012-10-31T19:00:00.000Z",
   "description": "CooVar: Co-occurring variant analyzer",
-  "license": "http://creativecommons.org/licenses/by/2.0",
+  "license": {
+    "url": "http://creativecommons.org/licenses/by/2.0",
+    "name": "open-access",
+    "text": "This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited."
+  },
   "author": {
     "@type": "Person",
     "givenName": "Ismael A",
@@ -85,20 +89,20 @@
       ]
     }
   ],
-  "code": [
+  "sourceCode": [
     {
       "name": "S1",
       "description": "Additional file 1 CooVar program tarball (version 0.05), including README and test scripts.",
       "targetProduct": [
         {
-          "filePath": "/var/folders/80/myssp1jd1593qqxjk7lhms080000gn/T/ldpm-114614-515-j7a5rr",
+          "filePath": "/var/folders/80/myssp1jd1593qqxjk7lhms080000gn/T/ldpm-114620-3153-108pllf",
           "bundlePath": "1756-0500-5-615-S1",
           "fileFormat": "application/x-gzip"
         }
       ]
     }
   ],
-  "figure": [
+  "image": [
     {
       "name": "F1",
       "alternateName": "Figure 1",
@@ -167,6 +171,12 @@
       "pmid": "23116482",
       "pmcid": "PMC3532326",
       "headline": "CooVar: Co-occurring variant analyzer",
+      "about": [
+        {
+          "name": "abstract",
+          "description": "BackgroundEvaluating the impact of genomic variations (GV) on protein-coding transcripts is an important step in identifying variants of functional significance. Currently available programs for variant annotation depend on external databases or annotate multiple variants affecting the same transcript independently, which limits program use to organisms available in these databases or results in potentially incorrect or incomplete annotations.FindingsWe have developed CooVar (Co-occurring Variant Analyzer), a database-independent program for assessing the impact of GVs on protein-coding transcripts. CooVar takes GVs, reference genome sequence, and protein-coding exons as input and provides annotated GVs and transcripts as output. Other than similar programs, CooVar considers the combined impact of all GVs affecting the same transcript, generating biologically more accurate annotations. CooVar is operated from the command-line and supports standard file formats VCF, GFF/GTF, and GVF, which makes it easy to integrate into existing computational pipelines. We have extensively tested CooVar on worm and human data sets and demonstrate that it generates correct annotations in only a short amount of time.ConclusionsCooVar is an easy-to-use and lightweight variant annotation tool that considers the combined impact of GVs on protein-coding transcripts. CooVar is freely available at http://genome.sfu.ca/projects/coovar/."
+        }
+      ],
       "volume": 5,
       "pageStart": 615,
       "pageEnd": 615,
