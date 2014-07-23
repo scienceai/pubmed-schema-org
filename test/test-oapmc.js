@@ -96,31 +96,18 @@ describe('pubmed central', function(){
 
   });
 
-
-  //  describe.skip('html body', function(){  
-  //    it('should parse body', function(done){
-  //      var pmcid = 'PMC2958805';
-  //
-  //      temp.mkdir('__tests', function(err, dirPath) {
-  //        if(err) throw err;
-  //
-  //        var tgzStream = fs.createReadStream(path.join(root, pmcid.toLowerCase() + '.tar.gz'))
-  //          .pipe(zlib.Unzip())
-  //          .pipe(tar.Extract({ path: dirPath, strip: 1 }));
-  //        
-  //        tgzStream.on('end', function() {
-  //
-  //          oapmc.readTargzFiles(dirPath, function(err, xml, files, mainArticleName, license){
-  //            var doc = new DOMParser().parseFromString(xml, 'text/xml');
-  //            
-  //            var p = new JatsBodyParser();
-  //            console.log(p.parse(doc.getElementsByTagName('body')[0]));
-  //            done();
-  //          });
-  //
-  //        });
-  //      });
-  //    });
-  //  });
+  describe('html body', function(){  
+    it('should parse body', function(done){
+      getPkg('PMC3532326', function(err, pkg, files, inlines, $doc){
+        oapmc._html(pkg, files, inlines, $doc, function(err, html){
+          if(err) throw err;
+          
+          //          fs.writeFileSync('/Users/seb/Desktop/pm.html', html, {encoding: 'utf8'});
+          //          console.log(html);
+          done();
+        });
+      });      
+    });
+  });
 
 });
