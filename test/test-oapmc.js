@@ -7,8 +7,7 @@ var path = require('path')
   , temp = require('temp')
   , Ldpm = require('ldpm')
   , DOMParser = require('xmldom').DOMParser
-  , oapmc = require('../lib/oapmc')
-  , JatsBodyParser = require('../lib/JatsBodyParser');
+  , oapmc = require('../lib/oapmc');
 
 temp.track();
 
@@ -98,11 +97,12 @@ describe('pubmed central', function(){
 
   describe('html body', function(){  
     it('should parse body', function(done){
-      getPkg('PMC3532326', function(err, pkg, files, inlines, $doc){
+      getPkg('PMC2958805', function(err, pkg, files, inlines, $doc){
         oapmc._html(pkg, files, inlines, $doc, function(err, html){
           if(err) throw err;
           
-          //          fs.writeFileSync('/Users/seb/Desktop/pm.html', html, {encoding: 'utf8'});
+          var $HOME = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
+          fs.writeFileSync(path.join($HOME, 'Desktop/pm.html'), html, {encoding: 'utf8'});
           //          console.log(html);
           done();
         });
