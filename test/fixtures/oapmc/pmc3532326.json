@@ -15,7 +15,6 @@
     "@type": "Person",
     "givenName": "Ismael A",
     "familyName": "Vergara",
-    "name": "Ismael A Vergara",
     "email": "ivergara@gmail.com",
     "affiliation": [
       {
@@ -33,7 +32,6 @@
       "@type": "Person",
       "givenName": "Christian",
       "familyName": "Frech",
-      "name": "Christian Frech",
       "email": "frech.christian@gmail.com",
       "affiliation": [
         {
@@ -46,7 +44,6 @@
       "@type": "Person",
       "givenName": "Nansheng",
       "familyName": "Chen",
-      "name": "Nansheng Chen",
       "email": "chenn@sfu.ca",
       "affiliation": [
         {
@@ -95,7 +92,7 @@
       "description": "Additional file 1 CooVar program tarball (version 0.05), including README and test scripts.",
       "targetProduct": [
         {
-          "filePath": "/var/folders/80/myssp1jd1593qqxjk7lhms080000gn/T/ldpm-114621-4094-w8kr6a",
+          "filePath": "/var/folders/80/myssp1jd1593qqxjk7lhms080000gn/T/ldpm-114626-1276-1uhr2ke",
           "bundlePath": "1756-0500-5-615-S1",
           "fileFormat": "application/x-gzip"
         }
@@ -151,7 +148,6 @@
           "@type": "Person",
           "givenName": "Nansheng",
           "familyName": "Chen",
-          "name": "Nansheng Chen",
           "email": "chenn@sfu.ca",
           "affiliation": [
             {
@@ -161,12 +157,6 @@
           ]
         }
       ],
-      "journal": {
-        "@type": "Journal",
-        "name": "BMC Research Notes",
-        "alternateName": "BMC Res Notes",
-        "issn": "1756-0500"
-      },
       "doi": "10.1186/1756-0500-5-615",
       "pmid": "23116482",
       "pmcid": "PMC3532326",
@@ -185,869 +175,998 @@
           "description": "CooVar is an easy-to-use and lightweight variant annotation tool that considers the combined impact of GVs on protein-coding transcripts. CooVar is freely available at http://genome.sfu.ca/projects/coovar/."
         }
       ],
-      "volume": 5,
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 5,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "BMC Research Notes",
+          "alternateName": "BMC Res Notes",
+          "issn": "1756-0500"
+        }
+      },
       "pageStart": 615,
       "pageEnd": 615,
       "citation": [
         {
           "name": "B1",
-          "@type": "ScholarlyArticle",
-          "headline": "Loss-of-function variants in the genomes of healthy humans",
-          "journal": {
-            "@type": "Journal",
-            "name": "Hum Mol Genet"
-          },
-          "volume": 19,
-          "pageStart": null,
-          "pageEnd": null,
-          "datePublished": "2009-12-31T19:00:00.000Z",
           "doi": "10.1093/hmg/ddq365",
           "pmid": "20805107",
           "url": "http://dx.doi.org/10.1093/hmg/ddq365",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/20805107",
+          "@type": "ScholarlyArticle",
+          "headline": "Loss-of-function variants in the genomes of healthy humans",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": null,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 19,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Hum Mol Genet"
+              }
+            }
+          },
+          "pageStart": null,
+          "pageEnd": null,
+          "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "MacArthur",
-            "givenName": "DG"
+            "givenName": "DG",
+            "familyName": "MacArthur"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Tyler-Smith",
-              "givenName": "C"
+              "givenName": "C",
+              "familyName": "Tyler-Smith"
             }
           ]
         },
         {
           "name": "B2",
-          "@type": "ScholarlyArticle",
-          "headline": "Structural variation in the human genome and its role in disease",
-          "journal": {
-            "@type": "Journal",
-            "name": "Annu Rev Med"
-          },
-          "volume": 61,
-          "pageStart": 437,
-          "pageEnd": 455,
-          "datePublished": "2009-12-31T19:00:00.000Z",
           "doi": "10.1146/annurev-med-100708-204735",
           "pmid": "20059347",
           "url": "http://dx.doi.org/10.1146/annurev-med-100708-204735",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/20059347",
+          "@type": "ScholarlyArticle",
+          "headline": "Structural variation in the human genome and its role in disease",
+          "isPartOf": {
+            "@type": "PublicationVolume",
+            "volumeNumber": 61,
+            "isPartOf": {
+              "@type": "Periodical",
+              "name": "Annu Rev Med"
+            }
+          },
+          "pageStart": 437,
+          "pageEnd": 455,
+          "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Stankiewicz",
-            "givenName": "P"
+            "givenName": "P",
+            "familyName": "Stankiewicz"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Lupski",
-              "givenName": "JR"
+              "givenName": "JR",
+              "familyName": "Lupski"
             }
           ]
         },
         {
           "name": "B3",
-          "@type": "ScholarlyArticle",
-          "headline": "Next-generation DNA sequencing",
-          "journal": {
-            "@type": "Journal",
-            "name": "Nat Biotechnol"
-          },
-          "volume": 26,
-          "pageStart": 1135,
-          "pageEnd": 1145,
-          "datePublished": "2007-12-31T19:00:00.000Z",
           "doi": "10.1038/nbt1486",
           "pmid": "18846087",
           "url": "http://dx.doi.org/10.1038/nbt1486",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/18846087",
+          "@type": "ScholarlyArticle",
+          "headline": "Next-generation DNA sequencing",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 10,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 26,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Nat Biotechnol"
+              }
+            }
+          },
+          "pageStart": 1135,
+          "pageEnd": 1145,
+          "datePublished": "2007-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Shendure",
-            "givenName": "J"
+            "givenName": "J",
+            "familyName": "Shendure"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Ji",
-              "givenName": "H"
+              "givenName": "H",
+              "familyName": "Ji"
             }
           ]
         },
         {
           "name": "B4",
+          "pmid": "19844226",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/19844226",
           "@type": "ScholarlyArticle",
           "headline": "Computational methods for discovering structural variation with next-generation sequencing",
-          "journal": {
-            "@type": "Journal",
-            "name": "Nat Methods"
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 11,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 6,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Nat Methods"
+              }
+            }
           },
-          "volume": 6,
           "pageStart": null,
           "pageEnd": null,
           "datePublished": "2008-12-31T19:00:00.000Z",
-          "pmid": "19844226",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/19844226",
           "author": {
             "@type": "Person",
-            "familyName": "Medvedev",
-            "givenName": "P"
+            "givenName": "P",
+            "familyName": "Medvedev"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Stanciu",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Stanciu"
             },
             {
               "@type": "Person",
-              "familyName": "Brudno",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Brudno"
             }
           ]
         },
         {
           "name": "B5",
-          "@type": "ScholarlyArticle",
-          "headline": "Deriving the consequences of genomic variants with the Ensembl API and SNP Effect Predictor",
-          "journal": {
-            "@type": "Journal",
-            "name": "Bioinformatics"
-          },
-          "volume": 26,
-          "pageStart": 2069,
-          "pageEnd": 2070,
-          "datePublished": "2009-12-31T19:00:00.000Z",
           "doi": "10.1093/bioinformatics/btq330",
           "pmid": "20562413",
           "url": "http://dx.doi.org/10.1093/bioinformatics/btq330",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/20562413",
+          "@type": "ScholarlyArticle",
+          "headline": "Deriving the consequences of genomic variants with the Ensembl API and SNP Effect Predictor",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 16,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 26,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Bioinformatics"
+              }
+            }
+          },
+          "pageStart": 2069,
+          "pageEnd": 2070,
+          "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "McLaren",
-            "givenName": "W"
+            "givenName": "W",
+            "familyName": "McLaren"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Pritchard",
-              "givenName": "B"
+              "givenName": "B",
+              "familyName": "Pritchard"
             },
             {
               "@type": "Person",
-              "familyName": "Rios",
-              "givenName": "D"
+              "givenName": "D",
+              "familyName": "Rios"
             },
             {
               "@type": "Person",
-              "familyName": "Chen",
-              "givenName": "Y"
+              "givenName": "Y",
+              "familyName": "Chen"
             },
             {
               "@type": "Person",
-              "familyName": "Flicek",
-              "givenName": "P"
+              "givenName": "P",
+              "familyName": "Flicek"
             },
             {
               "@type": "Person",
-              "familyName": "Cunningham",
-              "givenName": "F"
+              "givenName": "F",
+              "familyName": "Cunningham"
             }
           ]
         },
         {
           "name": "B6",
-          "@type": "ScholarlyArticle",
-          "headline": "The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data",
-          "journal": {
-            "@type": "Journal",
-            "name": "Genome Res"
-          },
-          "volume": 20,
-          "pageStart": 1297,
-          "pageEnd": 1303,
-          "datePublished": "2009-12-31T19:00:00.000Z",
           "doi": "10.1101/gr.107524.110",
           "pmid": "20644199",
           "url": "http://dx.doi.org/10.1101/gr.107524.110",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/20644199",
+          "@type": "ScholarlyArticle",
+          "headline": "The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 9,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 20,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Genome Res"
+              }
+            }
+          },
+          "pageStart": 1297,
+          "pageEnd": 1303,
+          "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "McKenna",
-            "givenName": "A"
+            "givenName": "A",
+            "familyName": "McKenna"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Hanna",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Hanna"
             },
             {
               "@type": "Person",
-              "familyName": "Banks",
-              "givenName": "E"
+              "givenName": "E",
+              "familyName": "Banks"
             },
             {
               "@type": "Person",
-              "familyName": "Sivachenko",
-              "givenName": "A"
+              "givenName": "A",
+              "familyName": "Sivachenko"
             },
             {
               "@type": "Person",
-              "familyName": "Cibulskis",
-              "givenName": "K"
+              "givenName": "K",
+              "familyName": "Cibulskis"
             },
             {
               "@type": "Person",
-              "familyName": "Kernytsky",
-              "givenName": "A"
+              "givenName": "A",
+              "familyName": "Kernytsky"
             },
             {
               "@type": "Person",
-              "familyName": "Garimella",
-              "givenName": "K"
+              "givenName": "K",
+              "familyName": "Garimella"
             },
             {
               "@type": "Person",
-              "familyName": "Altshuler",
-              "givenName": "D"
+              "givenName": "D",
+              "familyName": "Altshuler"
             },
             {
               "@type": "Person",
-              "familyName": "Gabriel",
-              "givenName": "S"
+              "givenName": "S",
+              "familyName": "Gabriel"
             },
             {
               "@type": "Person",
-              "familyName": "Daly",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Daly"
             }
           ],
           "unnamedContributors": true
         },
         {
           "name": "B7",
-          "@type": "ScholarlyArticle",
-          "headline": "SVA: software for annotating and visualizing sequenced human genomes",
-          "journal": {
-            "@type": "Journal",
-            "name": "Bioinformatics"
-          },
-          "volume": 27,
-          "pageStart": 1998,
-          "pageEnd": 2000,
-          "datePublished": "2010-12-31T19:00:00.000Z",
           "doi": "10.1093/bioinformatics/btr317",
           "pmid": "21624899",
           "url": "http://dx.doi.org/10.1093/bioinformatics/btr317",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/21624899",
+          "@type": "ScholarlyArticle",
+          "headline": "SVA: software for annotating and visualizing sequenced human genomes",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 14,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 27,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Bioinformatics"
+              }
+            }
+          },
+          "pageStart": 1998,
+          "pageEnd": 2000,
+          "datePublished": "2010-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Ge",
-            "givenName": "D"
+            "givenName": "D",
+            "familyName": "Ge"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Ruzzo",
-              "givenName": "EK"
+              "givenName": "EK",
+              "familyName": "Ruzzo"
             },
             {
               "@type": "Person",
-              "familyName": "Shianna",
-              "givenName": "KV"
+              "givenName": "KV",
+              "familyName": "Shianna"
             },
             {
               "@type": "Person",
-              "familyName": "He",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "He"
             },
             {
               "@type": "Person",
-              "familyName": "Pelak",
-              "givenName": "K"
+              "givenName": "K",
+              "familyName": "Pelak"
             },
             {
               "@type": "Person",
-              "familyName": "Heinzen",
-              "givenName": "EL"
+              "givenName": "EL",
+              "familyName": "Heinzen"
             },
             {
               "@type": "Person",
-              "familyName": "Need",
-              "givenName": "AC"
+              "givenName": "AC",
+              "familyName": "Need"
             },
             {
               "@type": "Person",
-              "familyName": "Cirulli",
-              "givenName": "ET"
+              "givenName": "ET",
+              "familyName": "Cirulli"
             },
             {
               "@type": "Person",
-              "familyName": "Maia",
-              "givenName": "JM"
+              "givenName": "JM",
+              "familyName": "Maia"
             },
             {
               "@type": "Person",
-              "familyName": "Dickson",
-              "givenName": "SP"
+              "givenName": "SP",
+              "familyName": "Dickson"
             }
           ],
           "unnamedContributors": true
         },
         {
           "name": "B8",
-          "@type": "ScholarlyArticle",
-          "headline": "ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data",
-          "journal": {
-            "@type": "Journal",
-            "name": "Nucleic Acids Res"
-          },
-          "volume": 38,
-          "pageStart": null,
-          "datePublished": "2009-12-31T19:00:00.000Z",
           "doi": "10.1093/nar/gkq603",
           "pmid": "20601685",
           "url": "http://dx.doi.org/10.1093/nar/gkq603",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/20601685",
+          "@type": "ScholarlyArticle",
+          "headline": "ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 16,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 38,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Nucleic Acids Res"
+              }
+            }
+          },
+          "pageStart": null,
+          "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Wang",
-            "givenName": "K"
+            "givenName": "K",
+            "familyName": "Wang"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Li",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Li"
             },
             {
               "@type": "Person",
-              "familyName": "Hakonarson",
-              "givenName": "H"
+              "givenName": "H",
+              "familyName": "Hakonarson"
             }
           ]
         },
         {
           "name": "B9",
-          "@type": "ScholarlyArticle",
-          "headline": "A systematic survey of loss-of-function variants in human protein-coding genes",
-          "journal": {
-            "@type": "Journal",
-            "name": "Science"
-          },
-          "volume": 335,
-          "pageStart": 823,
-          "pageEnd": 828,
-          "datePublished": "2011-12-31T19:00:00.000Z",
           "doi": "10.1126/science.1215040",
           "pmid": "22344438",
           "url": "http://dx.doi.org/10.1126/science.1215040",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/22344438",
+          "@type": "ScholarlyArticle",
+          "headline": "A systematic survey of loss-of-function variants in human protein-coding genes",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 6070,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 335,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Science"
+              }
+            }
+          },
+          "pageStart": 823,
+          "pageEnd": 828,
+          "datePublished": "2011-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "MacArthur",
-            "givenName": "DG"
+            "givenName": "DG",
+            "familyName": "MacArthur"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Balasubramanian",
-              "givenName": "S"
+              "givenName": "S",
+              "familyName": "Balasubramanian"
             },
             {
               "@type": "Person",
-              "familyName": "Frankish",
-              "givenName": "A"
+              "givenName": "A",
+              "familyName": "Frankish"
             },
             {
               "@type": "Person",
-              "familyName": "Huang",
-              "givenName": "N"
+              "givenName": "N",
+              "familyName": "Huang"
             },
             {
               "@type": "Person",
-              "familyName": "Morris",
-              "givenName": "J"
+              "givenName": "J",
+              "familyName": "Morris"
             },
             {
               "@type": "Person",
-              "familyName": "Walter",
-              "givenName": "K"
+              "givenName": "K",
+              "familyName": "Walter"
             },
             {
               "@type": "Person",
-              "familyName": "Jostins",
-              "givenName": "L"
+              "givenName": "L",
+              "familyName": "Jostins"
             },
             {
               "@type": "Person",
-              "familyName": "Habegger",
-              "givenName": "L"
+              "givenName": "L",
+              "familyName": "Habegger"
             },
             {
               "@type": "Person",
-              "familyName": "Pickrell",
-              "givenName": "JK"
+              "givenName": "JK",
+              "familyName": "Pickrell"
             },
             {
               "@type": "Person",
-              "familyName": "Montgomery",
-              "givenName": "SB"
+              "givenName": "SB",
+              "familyName": "Montgomery"
             }
           ],
           "unnamedContributors": true
         },
         {
           "name": "B10",
-          "@type": "ScholarlyArticle",
-          "headline": "The variant call format and VCFtools",
-          "journal": {
-            "@type": "Journal",
-            "name": "Bioinformatics"
-          },
-          "volume": 27,
-          "pageStart": 2156,
-          "pageEnd": 2158,
-          "datePublished": "2010-12-31T19:00:00.000Z",
           "doi": "10.1093/bioinformatics/btr330",
           "pmid": "21653522",
           "url": "http://dx.doi.org/10.1093/bioinformatics/btr330",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/21653522",
+          "@type": "ScholarlyArticle",
+          "headline": "The variant call format and VCFtools",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 15,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 27,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Bioinformatics"
+              }
+            }
+          },
+          "pageStart": 2156,
+          "pageEnd": 2158,
+          "datePublished": "2010-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Danecek",
-            "givenName": "P"
+            "givenName": "P",
+            "familyName": "Danecek"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Auton",
-              "givenName": "A"
+              "givenName": "A",
+              "familyName": "Auton"
             },
             {
               "@type": "Person",
-              "familyName": "Abecasis",
-              "givenName": "G"
+              "givenName": "G",
+              "familyName": "Abecasis"
             },
             {
               "@type": "Person",
-              "familyName": "Albers",
-              "givenName": "CA"
+              "givenName": "CA",
+              "familyName": "Albers"
             },
             {
               "@type": "Person",
-              "familyName": "Banks",
-              "givenName": "E"
+              "givenName": "E",
+              "familyName": "Banks"
             },
             {
               "@type": "Person",
-              "familyName": "DePristo",
-              "givenName": "MA"
+              "givenName": "MA",
+              "familyName": "DePristo"
             },
             {
               "@type": "Person",
-              "familyName": "Handsaker",
-              "givenName": "RE"
+              "givenName": "RE",
+              "familyName": "Handsaker"
             },
             {
               "@type": "Person",
-              "familyName": "Lunter",
-              "givenName": "G"
+              "givenName": "G",
+              "familyName": "Lunter"
             },
             {
               "@type": "Person",
-              "familyName": "Marth",
-              "givenName": "GT"
+              "givenName": "GT",
+              "familyName": "Marth"
             },
             {
               "@type": "Person",
-              "familyName": "Sherry",
-              "givenName": "ST"
+              "givenName": "ST",
+              "familyName": "Sherry"
             }
           ],
           "unnamedContributors": true
         },
         {
           "name": "B11",
-          "@type": "ScholarlyArticle",
-          "headline": "A standard variation file format for human genome sequences",
-          "journal": {
-            "@type": "Journal",
-            "name": "Genome Biol"
-          },
-          "volume": 11,
-          "pageStart": null,
-          "datePublished": "2009-12-31T19:00:00.000Z",
           "doi": "10.1186/gb-2010-11-8-r88",
           "pmid": "20796305",
           "url": "http://dx.doi.org/10.1186/gb-2010-11-8-r88",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/20796305",
+          "@type": "ScholarlyArticle",
+          "headline": "A standard variation file format for human genome sequences",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 8,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 11,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Genome Biol"
+              }
+            }
+          },
+          "pageStart": null,
+          "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Reese",
-            "givenName": "MG"
+            "givenName": "MG",
+            "familyName": "Reese"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Moore",
-              "givenName": "B"
+              "givenName": "B",
+              "familyName": "Moore"
             },
             {
               "@type": "Person",
-              "familyName": "Batchelor",
-              "givenName": "C"
+              "givenName": "C",
+              "familyName": "Batchelor"
             },
             {
               "@type": "Person",
-              "familyName": "Salas",
-              "givenName": "F"
+              "givenName": "F",
+              "familyName": "Salas"
             },
             {
               "@type": "Person",
-              "familyName": "Cunningham",
-              "givenName": "F"
+              "givenName": "F",
+              "familyName": "Cunningham"
             },
             {
               "@type": "Person",
-              "familyName": "Marth",
-              "givenName": "GT"
+              "givenName": "GT",
+              "familyName": "Marth"
             },
             {
               "@type": "Person",
-              "familyName": "Stein",
-              "givenName": "L"
+              "givenName": "L",
+              "familyName": "Stein"
             },
             {
               "@type": "Person",
-              "familyName": "Flicek",
-              "givenName": "P"
+              "givenName": "P",
+              "familyName": "Flicek"
             },
             {
               "@type": "Person",
-              "familyName": "Yandell",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Yandell"
             },
             {
               "@type": "Person",
-              "familyName": "Eilbeck",
-              "givenName": "K"
+              "givenName": "K",
+              "familyName": "Eilbeck"
             }
           ]
         },
         {
           "name": "B12",
-          "@type": "ScholarlyArticle",
-          "headline": "The Sequence Ontology: a tool for the unification of genome annotations",
-          "journal": {
-            "@type": "Journal",
-            "name": "Genome Biol"
-          },
-          "volume": 6,
-          "pageStart": null,
-          "datePublished": "2004-12-31T19:00:00.000Z",
           "doi": "10.1186/gb-2005-6-5-r44",
           "pmid": "15892872",
           "url": "http://dx.doi.org/10.1186/gb-2005-6-5-r44",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/15892872",
+          "@type": "ScholarlyArticle",
+          "headline": "The Sequence Ontology: a tool for the unification of genome annotations",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 5,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 6,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Genome Biol"
+              }
+            }
+          },
+          "pageStart": null,
+          "datePublished": "2004-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Eilbeck",
-            "givenName": "K"
+            "givenName": "K",
+            "familyName": "Eilbeck"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Lewis",
-              "givenName": "SE"
+              "givenName": "SE",
+              "familyName": "Lewis"
             },
             {
               "@type": "Person",
-              "familyName": "Mungall",
-              "givenName": "CJ"
+              "givenName": "CJ",
+              "familyName": "Mungall"
             },
             {
               "@type": "Person",
-              "familyName": "Yandell",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Yandell"
             },
             {
               "@type": "Person",
-              "familyName": "Stein",
-              "givenName": "L"
+              "givenName": "L",
+              "familyName": "Stein"
             },
             {
               "@type": "Person",
-              "familyName": "Durbin",
-              "givenName": "R"
+              "givenName": "R",
+              "familyName": "Durbin"
             },
             {
               "@type": "Person",
-              "familyName": "Ashburner",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Ashburner"
             }
           ]
         },
         {
           "name": "B13",
-          "@type": "ScholarlyArticle",
-          "headline": "Amino acid difference formula to help explain protein evolution",
-          "journal": {
-            "@type": "Journal",
-            "name": "Science"
-          },
-          "volume": 185,
-          "pageStart": 862,
-          "pageEnd": 864,
-          "datePublished": "1973-12-31T19:00:00.000Z",
           "doi": "10.1126/science.185.4154.862",
           "pmid": "4843792",
           "url": "http://dx.doi.org/10.1126/science.185.4154.862",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/4843792",
+          "@type": "ScholarlyArticle",
+          "headline": "Amino acid difference formula to help explain protein evolution",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 4154,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 185,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Science"
+              }
+            }
+          },
+          "pageStart": 862,
+          "pageEnd": 864,
+          "datePublished": "1973-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Grantham",
-            "givenName": "R"
+            "givenName": "R",
+            "familyName": "Grantham"
           }
         },
         {
           "name": "B14",
-          "@type": "ScholarlyArticle",
-          "headline": "Nonrandomness of point mutation as reflected in nucleotide substitutions in pseudogenes and its evolutionary implications",
-          "journal": {
-            "@type": "Journal",
-            "name": "J Mol Evol"
-          },
-          "volume": 21,
-          "pageStart": 58,
-          "pageEnd": 71,
-          "datePublished": "1983-12-31T19:00:00.000Z",
           "doi": "10.1007/BF02100628",
           "pmid": "6442359",
           "url": "http://dx.doi.org/10.1007/BF02100628",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/6442359",
+          "@type": "ScholarlyArticle",
+          "headline": "Nonrandomness of point mutation as reflected in nucleotide substitutions in pseudogenes and its evolutionary implications",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 1,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 21,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "J Mol Evol"
+              }
+            }
+          },
+          "pageStart": 58,
+          "pageEnd": 71,
+          "datePublished": "1983-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Li",
-            "givenName": "WH"
+            "givenName": "WH",
+            "familyName": "Li"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Wu",
-              "givenName": "CI"
+              "givenName": "CI",
+              "familyName": "Wu"
             },
             {
               "@type": "Person",
-              "familyName": "Luo",
-              "givenName": "CC"
+              "givenName": "CC",
+              "familyName": "Luo"
             }
           ]
         },
         {
           "name": "B15",
-          "@type": "ScholarlyArticle",
-          "headline": "Circos: an information aesthetic for comparative genomics",
-          "journal": {
-            "@type": "Journal",
-            "name": "Genome Res"
-          },
-          "volume": 19,
-          "pageStart": 1639,
-          "pageEnd": 1645,
-          "datePublished": "2008-12-31T19:00:00.000Z",
           "doi": "10.1101/gr.092759.109",
           "pmid": "19541911",
           "url": "http://dx.doi.org/10.1101/gr.092759.109",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/19541911",
+          "@type": "ScholarlyArticle",
+          "headline": "Circos: an information aesthetic for comparative genomics",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 9,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 19,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Genome Res"
+              }
+            }
+          },
+          "pageStart": 1639,
+          "pageEnd": 1645,
+          "datePublished": "2008-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Krzywinski",
-            "givenName": "M"
+            "givenName": "M",
+            "familyName": "Krzywinski"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Schein",
-              "givenName": "J"
+              "givenName": "J",
+              "familyName": "Schein"
             },
             {
               "@type": "Person",
-              "familyName": "Birol",
-              "givenName": "I"
+              "givenName": "I",
+              "familyName": "Birol"
             },
             {
               "@type": "Person",
-              "familyName": "Connors",
-              "givenName": "J"
+              "givenName": "J",
+              "familyName": "Connors"
             },
             {
               "@type": "Person",
-              "familyName": "Gascoyne",
-              "givenName": "R"
+              "givenName": "R",
+              "familyName": "Gascoyne"
             },
             {
               "@type": "Person",
-              "familyName": "Horsman",
-              "givenName": "D"
+              "givenName": "D",
+              "familyName": "Horsman"
             },
             {
               "@type": "Person",
-              "familyName": "Jones",
-              "givenName": "SJ"
+              "givenName": "SJ",
+              "familyName": "Jones"
             },
             {
               "@type": "Person",
-              "familyName": "Marra",
-              "givenName": "MA"
+              "givenName": "MA",
+              "familyName": "Marra"
             }
           ]
         },
         {
           "name": "B16",
+          "pmid": "19910365",
+          "url": "http://www.ncbi.nlm.nih.gov/pubmed/19910365",
           "@type": "ScholarlyArticle",
           "headline": "WormBase: a comprehensive resource for nematode research",
-          "journal": {
-            "@type": "Journal",
-            "name": "Nucleic Acids Res"
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": null,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 38,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Nucleic Acids Res"
+              }
+            }
           },
-          "volume": 38,
           "pageStart": null,
           "pageEnd": null,
           "datePublished": "2009-12-31T19:00:00.000Z",
-          "pmid": "19910365",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/19910365",
           "author": {
             "@type": "Person",
-            "familyName": "Harris",
-            "givenName": "TW"
+            "givenName": "TW",
+            "familyName": "Harris"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Antoshechkin",
-              "givenName": "I"
+              "givenName": "I",
+              "familyName": "Antoshechkin"
             },
             {
               "@type": "Person",
-              "familyName": "Bieri",
-              "givenName": "T"
+              "givenName": "T",
+              "familyName": "Bieri"
             },
             {
               "@type": "Person",
-              "familyName": "Blasiar",
-              "givenName": "D"
+              "givenName": "D",
+              "familyName": "Blasiar"
             },
             {
               "@type": "Person",
-              "familyName": "Chan",
-              "givenName": "J"
+              "givenName": "J",
+              "familyName": "Chan"
             },
             {
               "@type": "Person",
-              "familyName": "Chen",
-              "givenName": "WJ"
+              "givenName": "WJ",
+              "familyName": "Chen"
             },
             {
               "@type": "Person",
-              "familyName": "De La Cruz",
-              "givenName": "N"
+              "givenName": "N",
+              "familyName": "De La Cruz"
             },
             {
               "@type": "Person",
-              "familyName": "Davis",
-              "givenName": "P"
+              "givenName": "P",
+              "familyName": "Davis"
             },
             {
               "@type": "Person",
-              "familyName": "Duesbury",
-              "givenName": "M"
+              "givenName": "M",
+              "familyName": "Duesbury"
             },
             {
               "@type": "Person",
-              "familyName": "Fang",
-              "givenName": "R"
+              "givenName": "R",
+              "familyName": "Fang"
             }
           ],
           "unnamedContributors": true
         },
         {
           "name": "B17",
-          "@type": "ScholarlyArticle",
-          "headline": "Human genome sequencing using unchained base reads on self-assembling DNA nanoarrays",
-          "journal": {
-            "@type": "Journal",
-            "name": "Science"
-          },
-          "volume": 327,
-          "pageStart": 78,
-          "pageEnd": 81,
-          "datePublished": "2009-12-31T19:00:00.000Z",
           "doi": "10.1126/science.1181498",
           "pmid": "19892942",
           "url": "http://dx.doi.org/10.1126/science.1181498",
           "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/19892942",
+          "@type": "ScholarlyArticle",
+          "headline": "Human genome sequencing using unchained base reads on self-assembling DNA nanoarrays",
+          "isPartOf": {
+            "@type": "PublicationIssue",
+            "issueNumber": 5961,
+            "isPartOf": {
+              "@type": "PublicationVolume",
+              "volumeNumber": 327,
+              "isPartOf": {
+                "@type": "Periodical",
+                "name": "Science"
+              }
+            }
+          },
+          "pageStart": 78,
+          "pageEnd": 81,
+          "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
-            "familyName": "Drmanac",
-            "givenName": "R"
+            "givenName": "R",
+            "familyName": "Drmanac"
           },
           "contributor": [
             {
               "@type": "Person",
-              "familyName": "Sparks",
-              "givenName": "AB"
+              "givenName": "AB",
+              "familyName": "Sparks"
             },
             {
               "@type": "Person",
-              "familyName": "Callow",
-              "givenName": "MJ"
+              "givenName": "MJ",
+              "familyName": "Callow"
             },
             {
               "@type": "Person",
-              "familyName": "Halpern",
-              "givenName": "AL"
+              "givenName": "AL",
+              "familyName": "Halpern"
             },
             {
               "@type": "Person",
-              "familyName": "Burns",
-              "givenName": "NL"
+              "givenName": "NL",
+              "familyName": "Burns"
             },
             {
               "@type": "Person",
-              "familyName": "Kermani",
-              "givenName": "BG"
+              "givenName": "BG",
+              "familyName": "Kermani"
             },
             {
               "@type": "Person",
-              "familyName": "Carnevali",
-              "givenName": "P"
+              "givenName": "P",
+              "familyName": "Carnevali"
             },
             {
               "@type": "Person",
-              "familyName": "Nazarenko",
-              "givenName": "I"
+              "givenName": "I",
+              "familyName": "Nazarenko"
             },
             {
               "@type": "Person",
-              "familyName": "Nilsen",
-              "givenName": "GB"
+              "givenName": "GB",
+              "familyName": "Nilsen"
             },
             {
               "@type": "Person",
-              "familyName": "Yeung",
-              "givenName": "G"
+              "givenName": "G",
+              "familyName": "Yeung"
             }
           ],
           "unnamedContributors": true
         },
         {
           "name": "B18",
+          "url": "ftp://ftp2.completegenomics.com/Multigenome_summaries/Complete_Public_Genomes_69genomes_B37_mkvcf.vcf.bz2",
+          "@type": "CreativeWork",
           "headline": "Complete Genomics 69 Genomes Data",
-          "url": "ftp://ftp2.completegenomics.com/Multigenome_summaries/Complete_Public_Genomes_69genomes_B37_mkvcf.vcf.bz2"
+          "comment": {
+            "@type": "Comment",
+            "text": "ftp://ftp2.completegenomics.com/Multigenome_summaries/Complete_Public_Genomes_69genomes_B37_mkvcf.vcf.bz2"
+          }
         }
       ]
     }

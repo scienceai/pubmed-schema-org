@@ -48,7 +48,7 @@ describe('pubmed central', function(){
 
   this.timeout(4000);
 
-  describe.skip('metadata', function(){
+  describe('metadata', function(){
 
     //http://www.pubmedcentral.nih.gov/oai/oai.cgi?verb=GetRecord&identifier=oai:pubmedcentral.nih.gov:2924383&metadataPrefix=pmc
     it('should create a package.jsonld for a ms with a movie zipped and not treat it as a code bundle', function(done){
@@ -95,7 +95,7 @@ describe('pubmed central', function(){
 
   });
 
-  describe('html body', function(){  
+  describe.skip('html body', function(){  
     it('should parse body', function(done){
       getPkg('PMC2958805', function(err, pkg, files, inlines, $doc){
         oapmc._html(pkg, files, inlines, $doc, function(err, html){
