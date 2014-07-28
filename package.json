@@ -1,6 +1,6 @@
 {
   "name": "ldpm-pubmed",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "pubmed as package.jsonld",
   "main": "index.js",
   "bin": {
