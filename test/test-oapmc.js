@@ -95,7 +95,7 @@ describe('pubmed central', function(){
 
   });
 
-  describe.skip('html body', function(){  
+  describe('html body', function(){  
     it('should parse body', function(done){
       getPkg('PMC2958805', function(err, pkg, files, inlines, $doc){
         oapmc._html(pkg, files, inlines, $doc, function(err, html){

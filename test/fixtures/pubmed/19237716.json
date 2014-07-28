@@ -106,30 +106,320 @@
       "headline": "Folic acid, pyridoxine, and cyanocobalamin combination treatment and age-related macular degeneration in women: the Women's Antioxidant and Folic Acid Cardiovascular Study.",
       "about": [
         {
-          "name": "background",
-          "description": "Observational epidemiologic studies indicate a direct association between homocysteine concentration in the blood and the risk of age-related macular degeneration (AMD), but randomized trial data to examine the effect of therapy to lower homocysteine levels in AMD are lacking. Our objective was to examine the incidence of AMD in a trial of combined folic acid, pyridoxine hydrochloride (vitamin B(6)), and cyanocobalamin (vitamin B(12)) therapy."
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/M01.060.116",
+          "@type": "MedicalEntity",
+          "name": "Adult",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "M01.060.116",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
         },
         {
-          "name": "methods",
-          "description": "We conducted a randomized, double-blind, placebo-controlled trial including 5442 female health care professionals 40 years or older with preexisting cardiovascular disease or 3 or more cardiovascular disease risk factors. A total of 5205 of these women did not have a diagnosis of AMD at baseline and were included in this analysis. Participants were randomly assigned to receive a combination of folic acid (2.5 mg/d), pyridoxine hydrochloride (50 mg/d), and cyanocobalamin (1 mg/d) or placebo. Our main outcome measures included total AMD, defined as a self-report documented by medical record evidence of an initial diagnosis after randomization, and visually significant AMD, defined as confirmed incident AMD with visual acuity of 20/30 or worse attributable to this condition."
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/M01.060.116.100",
+          "@type": "MedicalEntity",
+          "name": "Aged",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "M01.060.116.100",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
         },
         {
-          "name": "results",
-          "description": "After an average of 7.3 years of treatment and follow-up, there were 55 cases of AMD in the combination treatment group and 82 in the placebo group (relative risk, 0.66; 95% confidence interval, 0.47-0.93 [P = .02]). For visually significant AMD, there were 26 cases in the combination treatment group and 44 in the placebo group (relative risk, 0.59; 95% confidence interval, 0.36-0.95 [P = .03])."
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/C14",
+          "@type": "MedicalEntity",
+          "name": "Cardiovascular Diseases",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "C14",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false,
+          "description": "complications, prevention & control"
         },
         {
-          "name": "conclusions",
-          "description": "These randomized trial data from a large cohort of women at high risk of cardiovascular disease indicate that daily supplementation with folic acid, pyridoxine, and cyanocobalamin may reduce the risk of AMD."
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/N06.850.520.445.300",
+          "@type": "MedicalEntity",
+          "name": "Double-Blind Method",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "N06.850.520.445.300",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/E02.319.310",
+          "@type": "MedicalEntity",
+          "name": "Drug Therapy, Combination",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "E02.319.310",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/E05.315",
+          "@type": "MedicalEntity",
+          "name": "Endpoint Determination",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "E05.315",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@type": "MedicalEntity",
+          "name": "Female",
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/D03.438.733.631.400",
+          "@type": "MedicalEntity",
+          "name": "Folic Acid",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "D03.438.733.631.400",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false,
+          "description": "therapeutic use"
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/N06.850.520.450.500.750.350",
+          "@type": "MedicalEntity",
+          "name": "Follow-Up Studies",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "N06.850.520.450.500.750.350",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/B01.050.150.900.649.801.400.112.400.400",
+          "@type": "MedicalEntity",
+          "name": "Humans",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "B01.050.150.900.649.801.400.112.400.400",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/N06.850.520.308.985.525.375",
+          "@type": "MedicalEntity",
+          "name": "Incidence",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "N06.850.520.308.985.525.375",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/C11.768.585.439",
+          "@type": "MedicalEntity",
+          "name": "Macular Degeneration",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "C11.768.585.439",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false,
+          "description": "complications, drug therapy, prevention & control"
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/M01.060.116.630",
+          "@type": "MedicalEntity",
+          "name": "Middle Aged",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "M01.060.116.630",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/N06.850.520.830.750.725",
+          "@type": "MedicalEntity",
+          "name": "Proportional Hazards Models",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "N06.850.520.830.750.725",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/D03.383.725.676.925.875",
+          "@type": "MedicalEntity",
+          "name": "Pyridoxine",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "D03.383.725.676.925.875",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false,
+          "description": "therapeutic use"
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/N06.850.520.830.600.800.725",
+          "@type": "MedicalEntity",
+          "name": "Risk Factors",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "N06.850.520.830.600.800.725",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/N05.715.360.575.575.800",
+          "@type": "MedicalEntity",
+          "name": "Treatment Outcome",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "N05.715.360.575.575.800",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/D04.345.783.437.777",
+          "@type": "MedicalEntity",
+          "name": "Vitamin B 12",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "D04.345.783.437.777",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false,
+          "description": "therapeutic use"
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/D27.505.696.377.605.600.708",
+          "@type": "MedicalEntity",
+          "name": "Vitamin B Complex",
+          "code": {
+            "@type": "MedicalCode",
+            "codeValue": "D27.505.696.377.605.600.708",
+            "codingSystem": "MeSH"
+          },
+          "majorTopic": false,
+          "description": "therapeutic use"
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/D27.505.696.377.605.600.708",
+          "@type": "Drug",
+          "name": "Vitamin B Complex",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "D27.505.696.377.605.600.708",
+              "codingSystem": "MeSH"
+            },
+            {
+              "@type": "MedicalCode",
+              "codeValue": "12001-76-2"
+            }
+          ]
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/D03.383.725.676.925.875",
+          "@type": "Drug",
+          "name": "Pyridoxine",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "D03.383.725.676.925.875",
+              "codingSystem": "MeSH"
+            },
+            {
+              "@type": "MedicalCode",
+              "codeValue": "65-23-6"
+            }
+          ]
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/D03.438.733.631.400",
+          "@type": "Drug",
+          "name": "Folic Acid",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "D03.438.733.631.400",
+              "codingSystem": "MeSH"
+            },
+            {
+              "@type": "MedicalCode",
+              "codeValue": "935E97BOY8"
+            }
+          ]
+        },
+        {
+          "@id": "http://www.ncbi.nlm.nih.gov/mesh/D04.345.783.437.777",
+          "@type": "Drug",
+          "name": "Vitamin B 12",
+          "code": [
+            {
+              "@type": "MedicalCode",
+              "codeValue": "D04.345.783.437.777",
+              "codingSystem": "MeSH"
+            },
+            {
+              "@type": "MedicalCode",
+              "codeValue": "P6YC3EG204"
+            }
+          ]
         }
       ],
-      "journal": {
-        "@type": "Journal",
-        "name": "Archives of internal medicine",
-        "alternateName": "Arch. Intern. Med.",
-        "issn": "1538-3679"
+      "abstract": [
+        {
+          "@type": "Abstract",
+          "hasPart": [
+            {
+              "@type": "Abstract",
+              "headline": "background",
+              "abstractBody": "Observational epidemiologic studies indicate a direct association between homocysteine concentration in the blood and the risk of age-related macular degeneration (AMD), but randomized trial data to examine the effect of therapy to lower homocysteine levels in AMD are lacking. Our objective was to examine the incidence of AMD in a trial of combined folic acid, pyridoxine hydrochloride (vitamin B(6)), and cyanocobalamin (vitamin B(12)) therapy."
+            },
+            {
+              "@type": "Abstract",
+              "headline": "methods",
+              "abstractBody": "We conducted a randomized, double-blind, placebo-controlled trial including 5442 female health care professionals 40 years or older with preexisting cardiovascular disease or 3 or more cardiovascular disease risk factors. A total of 5205 of these women did not have a diagnosis of AMD at baseline and were included in this analysis. Participants were randomly assigned to receive a combination of folic acid (2.5 mg/d), pyridoxine hydrochloride (50 mg/d), and cyanocobalamin (1 mg/d) or placebo. Our main outcome measures included total AMD, defined as a self-report documented by medical record evidence of an initial diagnosis after randomization, and visually significant AMD, defined as confirmed incident AMD with visual acuity of 20/30 or worse attributable to this condition."
+            },
+            {
+              "@type": "Abstract",
+              "headline": "results",
+              "abstractBody": "After an average of 7.3 years of treatment and follow-up, there were 55 cases of AMD in the combination treatment group and 82 in the placebo group (relative risk, 0.66; 95% confidence interval, 0.47-0.93 [P = .02]). For visually significant AMD, there were 26 cases in the combination treatment group and 44 in the placebo group (relative risk, 0.59; 95% confidence interval, 0.36-0.95 [P = .03])."
+            },
+            {
+              "@type": "Abstract",
+              "headline": "conclusions",
+              "abstractBody": "These randomized trial data from a large cohort of women at high risk of cardiovascular disease indicate that daily supplementation with folic acid, pyridoxine, and cyanocobalamin may reduce the risk of AMD."
+            }
+          ]
+        }
+      ],
+      "isPartOf": {
+        "@type": "PublicationIssue",
+        "issueNumber": 4,
+        "isPartOf": {
+          "@type": "PublicationVolume",
+          "volumeNumber": 169,
+          "isPartOf": {
+            "@type": "Periodical",
+            "name": "Archives of internal medicine",
+            "alternateName": "Arch. Intern. Med.",
+            "issn": "1538-3679"
+          }
+        }
       },
-      "volume": 169,
-      "issue": 4,
       "pageStart": 335,
       "pageEnd": 341,
       "datePublished": "2009-02-22T19:00:00.000Z",
@@ -137,554 +427,347 @@
       "url": "http://dx.doi.org/10.1001/archinternmed.2008.574",
       "citation": [
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Ophthalmol. 2004 Jan;137(1):84-9",
           "pmid": "14700648"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "J Am Soc Nephrol. 2004 Feb;15(2):420-6",
           "pmid": "14747389"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "JAMA. 2004 Feb 4;291(5):565-75",
           "pmid": "14762035"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "J Nutr Biochem. 2004 Feb;15(2):64-79",
           "pmid": "14972346"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Int J Cardiol. 2004 Feb;93(2-3):175-9",
           "pmid": "14975544"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Epidemiol. 1995 Aug 15;142(4):404-9",
           "pmid": "7625405"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "JAMA. 1996 Oct 9;276(14):1141-6",
           "pmid": "8827966"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "JAMA. 1996 Oct 9;276(14):1147-51",
           "pmid": "8827967"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "J Biol Chem. 1997 Jul 4;272(27):17012-7",
           "pmid": "9202015"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Neurol. 1997 Oct;54(10):1276-82",
           "pmid": "9341574"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Epidemiol. 1998 Jan 15;147(2):103-10",
           "pmid": "9456998"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Circulation. 1998 Jan 27;97(3):237-41",
           "pmid": "9462523"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Invest Ophthalmol Vis Sci. 1998 Feb;39(2):385-90",
           "pmid": "9477998"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Annu Rev Med. 1998;49:31-62",
           "pmid": "9509248"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "N Engl J Med. 1998 Apr 9;338(15):1042-50",
           "pmid": "9535670"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "J Cardiovasc Risk. 1998 Aug;5(4):239-47",
           "pmid": "9919472"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Circ Res. 1999 Mar 5;84(4):409-16",
           "pmid": "10066675"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Lancet. 1999 May 8;353(9164):1586-7",
           "pmid": "10334261"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "JAMA. 1999 Jun 9;281(22):2113-8",
           "pmid": "10367822"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Ophthalmic Epidemiol. 1999 Jun;6(2):125-43",
           "pmid": "10420212"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "N Engl J Med. 2004 Dec 30;351(27):2805-16",
           "pmid": "15625332"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Ophthalmology. 2005 Jun;112(6):1035-47",
           "pmid": "15936441"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Heart. 2005 Sep;91(9):1213-4",
           "pmid": "16103563"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Clin Nutr. 2005 Oct;82(4):806-12",
           "pmid": "16210710"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Ophthalmol. 2005 Nov;123(11):1570-4",
           "pmid": "16286620"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Eur J Ophthalmol. 2005 Nov-Dec;15(6):764-7",
           "pmid": "16329063"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Ophthalmology. 2005 Dec;112(12):2076-80",
           "pmid": "16225921"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Ophthalmol. 2006 Jan;141(1):201-3",
           "pmid": "16387004"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Eye (Lond). 2006 Feb;20(2):203-7",
           "pmid": "15803172"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "J Am Coll Cardiol. 2006 Mar 21;47(6):1108-16",
           "pmid": "16545638"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "N Engl J Med. 2006 Apr 13;354(15):1567-77",
           "pmid": "16531613"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "N Engl J Med. 2006 Apr 13;354(15):1578-88",
           "pmid": "16531614"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Graefes Arch Clin Exp Ophthalmol. 2006 May;244(5):565-9",
           "pmid": "16163497"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Prog Retin Eye Res. 2006 May;25(3):249-76",
           "pmid": "16580242"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Blood Purif. 2006;24(4):379-86",
           "pmid": "16755160"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "JAMA. 2006 Dec 13;296(22):2720-6",
           "pmid": "17164458"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Ophthalmol. 2007 Feb;143(2):344-6",
           "pmid": "17258528"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Intern Med. 2007 Aug 13-27;167(15):1610-8",
           "pmid": "17698683"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "JAMA. 2008 May 7;299(17):2027-36",
           "pmid": "18460663"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "J Am Coll Cardiol. 1999 Dec;34(7):2002-6",
           "pmid": "10588216"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arterioscler Thromb Vasc Biol. 1999 Dec;19(12):2922-7",
           "pmid": "10591670"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "J Nutr. 2000 Feb;130(2S Suppl):369S-372S",
           "pmid": "10721909"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Ophthalmol. 2000 Nov;130(5):658-63",
           "pmid": "11078846"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Ophthalmol. 2001 Feb;119(2):198-207",
           "pmid": "11176980"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Ophthalmology. 2001 Apr;108(4):705-10",
           "pmid": "11297487"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Ophthalmol. 2001 May;131(5):541-60",
           "pmid": "11336929"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Ophthalmol. 2001 Oct;119(10):1417-36",
           "pmid": "11594942"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Circulation. 2001 Nov 20;104(21):2569-75",
           "pmid": "11714652"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Circulation. 2002 Jan 1;105(1):22-6",
           "pmid": "11772871"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Br J Ophthalmol. 2002 Feb;86(2):209-13",
           "pmid": "11815349"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arterioscler Thromb Vasc Biol. 2002 Apr 1;22(4):587-92",
           "pmid": "11950695"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "JAMA. 2002 Aug 28;288(8):973-9",
           "pmid": "12190367"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "J Womens Health (Larchmt). 2004 Jan-Feb;13(1):99-117",
           "pmid": "15006283"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Ophthalmol. 2004 Apr;122(4):564-72",
           "pmid": "15078675"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "N Engl J Med. 2004 Jun 24;350(26):2673-81",
           "pmid": "15215483"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Ophthalmol. 1973 Jan;89(1):1-2",
           "pmid": "4684894"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Ophthalmol. 1991 Aug;109(8):1109-14",
           "pmid": "1714270"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Ophthalmol. 1992 Mar;110(3):381-7",
           "pmid": "1543458"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Ophthalmol. 1993 Sep;111(9):1200-9",
           "pmid": "7689827"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Clin Chem. 1993 Sep;39(9):1764-79",
           "pmid": "8375046"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Proc Natl Acad Sci U S A. 1994 Jul 5;91(14):6369-73",
           "pmid": "8022789"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Invest Ophthalmol Vis Sci. 1995 Jan;36(1):182-91",
           "pmid": "7822146"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Am J Clin Nutr. 2002 Oct;76(4):897-902",
           "pmid": "12324306"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Ophthalmology. 2002 Oct;109(10):1767-79",
           "pmid": "12359593"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "JAMA. 2002 Oct 23-30;288(16):2015-22",
           "pmid": "12387654"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "BMJ. 2002 Nov 23;325(7374):1202",
           "pmid": "12446535"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Med Sci Monit. 2003 Apr;9(4):PI19-24",
           "pmid": "12709680"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "Cites"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Brain. 2004 Jan;127(Pt 1):212-9",
           "pmid": "14607791"
         },
         {
-          "@type": [
-            "ScholarlyArticle",
-            "CommentIn"
-          ],
+          "@type": "ScholarlyArticle",
           "description": "Arch Intern Med. 2009 Jul 13;169(13):1180-2",
           "pmid": "19597064"
         }
@@ -697,262 +780,6 @@
       "catalog": {
         "name": "ClinicalTrials.gov"
       }
-    }
-  ],
-  "annotation": [
-    {
-      "@type": "Annotation",
-      "annotatedBy": {
-        "@id": "http://www.ncbi.nlm.nih.gov/pubmed",
-        "@type": "Organization",
-        "name": "PubMed"
-      },
-      "serializedBy": {
-        "@id": "http://standardanalytics.io",
-        "@type": "Organization",
-        "name": "Standard Analytics IO"
-      },
-      "motivatedBy": "oa:tagging",
-      "hasBody": {
-        "@type": [
-          "Tag",
-          "Mesh"
-        ],
-        "@context": "mesh.jsonld",
-        "@graph": [
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Adult",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Aged",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Cardiovascular Diseases",
-              "majorTopic": false
-            },
-            "qualifier": [
-              {
-                "name": "complications",
-                "majorTopic": false
-              },
-              {
-                "name": "prevention & control",
-                "majorTopic": true
-              }
-            ]
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Double-Blind Method",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Drug Therapy, Combination",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Endpoint Determination",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Female",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Folic Acid",
-              "majorTopic": false
-            },
-            "qualifier": [
-              {
-                "name": "therapeutic use",
-                "majorTopic": true
-              }
-            ]
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Follow-Up Studies",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Humans",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Incidence",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Macular Degeneration",
-              "majorTopic": false
-            },
-            "qualifier": [
-              {
-                "name": "complications",
-                "majorTopic": false
-              },
-              {
-                "name": "drug therapy",
-                "majorTopic": true
-              },
-              {
-                "name": "prevention & control",
-                "majorTopic": true
-              }
-            ]
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Middle Aged",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Proportional Hazards Models",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Pyridoxine",
-              "majorTopic": false
-            },
-            "qualifier": [
-              {
-                "name": "therapeutic use",
-                "majorTopic": true
-              }
-            ]
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Risk Factors",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Treatment Outcome",
-              "majorTopic": false
-            }
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Vitamin B 12",
-              "majorTopic": false
-            },
-            "qualifier": [
-              {
-                "name": "therapeutic use",
-                "majorTopic": true
-              }
-            ]
-          },
-          {
-            "@type": "MeshHeading",
-            "descriptor": {
-              "name": "Vitamin B Complex",
-              "majorTopic": false
-            },
-            "qualifier": [
-              {
-                "name": "therapeutic use",
-                "majorTopic": true
-              }
-            ]
-          },
-          {
-            "@type": [
-              "MeshChemical",
-              "Drug"
-            ],
-            "name": "Vitamin B Complex",
-            "code": {
-              "@type": "MedicalCode",
-              "codeValue": "12001-76-2"
-            }
-          },
-          {
-            "@type": [
-              "MeshChemical",
-              "Drug"
-            ],
-            "name": "Pyridoxine",
-            "code": {
-              "@type": "MedicalCode",
-              "codeValue": "65-23-6"
-            }
-          },
-          {
-            "@type": [
-              "MeshChemical",
-              "Drug"
-            ],
-            "name": "Folic Acid",
-            "code": {
-              "@type": "MedicalCode",
-              "codeValue": "935E97BOY8"
-            }
-          },
-          {
-            "@type": [
-              "MeshChemical",
-              "Drug"
-            ],
-            "name": "Vitamin B 12",
-            "code": {
-              "@type": "MedicalCode",
-              "codeValue": "P6YC3EG204"
-            }
-          }
-        ]
-      },
-      "hasTarget": [
-        {
-          "@type": "SpecificResource",
-          "hasSource": "archinternmed-christen-2009/0.0.0/article/19237716"
-        }
-      ]
     }
   ]
 }

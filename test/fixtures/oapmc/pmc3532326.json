@@ -92,7 +92,7 @@
       "description": "Additional file 1 CooVar program tarball (version 0.05), including README and test scripts.",
       "targetProduct": [
         {
-          "filePath": "/var/folders/80/myssp1jd1593qqxjk7lhms080000gn/T/ldpm-114626-1388-1aos0u7",
+          "filePath": "/var/folders/80/myssp1jd1593qqxjk7lhms080000gn/T/ldpm-114627-11342-1ee4x2d",
           "bundlePath": "1756-0500-5-615-S1",
           "fileFormat": "application/x-gzip"
         }
@@ -206,7 +206,7 @@
           "headline": "Loss-of-function variants in the genomes of healthy humans",
           "isPartOf": {
             "@type": "PublicationIssue",
-            "issueNumber": null,
+            "issueNumber": "R2",
             "isPartOf": {
               "@type": "PublicationVolume",
               "volumeNumber": 19,
@@ -216,8 +216,8 @@
               }
             }
           },
-          "pageStart": null,
-          "pageEnd": null,
+          "pageStart": "R125",
+          "pageEnd": "R130",
           "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
@@ -308,7 +308,7 @@
           "headline": "Computational methods for discovering structural variation with next-generation sequencing",
           "isPartOf": {
             "@type": "PublicationIssue",
-            "issueNumber": 11,
+            "issueNumber": "11 Suppl",
             "isPartOf": {
               "@type": "PublicationVolume",
               "volumeNumber": 6,
@@ -318,8 +318,8 @@
               }
             }
           },
-          "pageStart": null,
-          "pageEnd": null,
+          "pageStart": "S13",
+          "pageEnd": "S20",
           "datePublished": "2008-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
@@ -569,7 +569,7 @@
               }
             }
           },
-          "pageStart": null,
+          "pageStart": "e164",
           "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
@@ -763,7 +763,7 @@
               }
             }
           },
-          "pageStart": null,
+          "pageStart": "R88",
           "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
@@ -838,7 +838,7 @@
               }
             }
           },
-          "pageStart": null,
+          "pageStart": "R44",
           "datePublished": "2004-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",
@@ -1022,7 +1022,7 @@
           "headline": "WormBase: a comprehensive resource for nematode research",
           "isPartOf": {
             "@type": "PublicationIssue",
-            "issueNumber": null,
+            "issueNumber": "Database issue",
             "isPartOf": {
               "@type": "PublicationVolume",
               "volumeNumber": 38,
@@ -1032,8 +1032,8 @@
               }
             }
           },
-          "pageStart": null,
-          "pageEnd": null,
+          "pageStart": "D463",
+          "pageEnd": "D467",
           "datePublished": "2009-12-31T19:00:00.000Z",
           "author": {
             "@type": "Person",

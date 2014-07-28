@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "ldpm": "*",
+    "mesh-tree": "*",
     "is-url": "~1.1.0",
     "clone": "~0.1.17",
     "recursive-readdir": "~1.1.2",
@@ -46,6 +47,6 @@
     "gm": "~1.16.0"
   },
   "devDependencies": {
-    "mocha": "~1.20.1"
+    "mocha": "~1.21.3"
   }
 }
