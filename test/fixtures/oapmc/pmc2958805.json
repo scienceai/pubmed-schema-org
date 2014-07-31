@@ -43,7 +43,7 @@
     {
       "name": "pcbi-1000960-g001",
       "alternateName": "Figure 1",
-      "description": "Relative use of fat and carbohydrate as metabolic fuels depends on exercise intensity.",
+      "headline": "Relative use of fat and carbohydrate as metabolic fuels depends on exercise intensity.",
       "doi": "10.1371/journal.pcbi.1000960.g001",
       "thumbnailPath": [
         "pcbi.1000960.g001.gif"
@@ -58,7 +58,7 @@
     {
       "name": "pcbi-1000960-g002",
       "alternateName": "Figure 2",
-      "description": "When does glycogen storage capacity constrain maximal marathon speed?",
+      "headline": "When does glycogen storage capacity constrain maximal marathon speed?",
       "doi": "10.1371/journal.pcbi.1000960.g002",
       "thumbnailPath": [
         "pcbi.1000960.g002.gif"
@@ -73,7 +73,7 @@
     {
       "name": "pcbi-1000960-g003",
       "alternateName": "Figure 3",
-      "description": "Distance to ‘The Wall’ for endurance runners.",
+      "headline": "Distance to ‘The Wall’ for endurance runners.",
       "doi": "10.1371/journal.pcbi.1000960.g003",
       "thumbnailPath": [
         "pcbi.1000960.g003.gif"
@@ -88,7 +88,7 @@
     {
       "name": "pcbi-1000960-g004",
       "alternateName": "Figure 4",
-      "description": "Estimating the aerobic capacity of a typical runner.",
+      "headline": "Estimating the aerobic capacity of a typical runner.",
       "doi": "10.1371/journal.pcbi.1000960.g004",
       "thumbnailPath": [
         "pcbi.1000960.g004.gif"

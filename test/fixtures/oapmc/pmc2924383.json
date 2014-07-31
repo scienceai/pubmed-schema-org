@@ -66,7 +66,7 @@
     {
       "name": "pone-0012255-g001",
       "alternateName": "Figure 1",
-      "description": "Experimental design.",
+      "headline": "Experimental design.",
       "caption": "In an adaptation phase, observers were exposed to visual apparent motion for 3 min in which two white circles placed side by side were presented in alternation. The onset of leftward circle was accompanied by a tone A and the rightward circle a tone B. In a test phase, a white circle was presented twice. The circle was perceived as lateral motion in the same direction as the previously exposed apparent motion, when the onset of the circle was synchronized to tones of alternating frequencies. When the onset of the first circle was synchronized to the tone A and the second circle the tone B, the circle appeared to move from left to right. The strength of this illusory motion was quantified by a motion nulling procedure.",
       "doi": "10.1371/journal.pone.0012255.g001",
       "thumbnailPath": [
@@ -82,7 +82,7 @@
     {
       "name": "pone-0012255-g002",
       "alternateName": "Figure 2",
-      "description": "Sound-contingent visual motion aftereffects.",
+      "headline": "Sound-contingent visual motion aftereffects.",
       "caption": "(A) The proportion of rightward motion perception of visual stimuli as a function of the amount of physical displacements of visual stimuli. Positive values indicate rightward visual motion in the horizontal axis and negative values leftward visual motion. Blue lines represent the results for leftward sound condition and red lines rightward sound condition. Dashed lines represent the results obtained before adaptation. Filled circles represent the results obtained immediately after adaptation and open circles 3 days after adaptation. (B) The points of subjective stationarity (PSS). Positive values represent the shift of PSS in the direction of the leftward visual motion. Blue bars represent the results for leftward sound condition, red bars rightward sound condition, and gray bars no sound condition. Error bar denotes the standard error of the mean.",
       "doi": "10.1371/journal.pone.0012255.g002",
       "thumbnailPath": [
@@ -98,7 +98,7 @@
     {
       "name": "pone-0012255-g003",
       "alternateName": "Figure 3",
-      "description": "Points of subjective stationarity.",
+      "headline": "Points of subjective stationarity.",
       "caption": "(A) Results measured at 5° right of the fixation. (B) Results measured at 20° right of the fixation. Positive values represent the shift of PSS in the direction of the leftward visual motion. Blue bars represent the results for leftward sound condition, red bars rightward sound condition, and gray bars no sound condition. Error bar denotes the standard error of the mean.",
       "doi": "10.1371/journal.pone.0012255.g003",
       "thumbnailPath": [
@@ -114,7 +114,7 @@
     {
       "name": "pone-0012255-g004",
       "alternateName": "Figure 4",
-      "description": "Points of subjective stationarity measured at 10° left of the fixation.",
+      "headline": "Points of subjective stationarity measured at 10° left of the fixation.",
       "caption": "(A) PSSs before and after adaptation to 1000 ms SOA. (B) PSSs after adaptation to 500 ms SOA. Positive values represent the shift of PSS in the direction of the leftward visual motion. Blue bars represent the results for leftward sound condition, red bars rightward sound condition, and gray bars no sound condition. Error bar denotes the standard error of the mean.",
       "doi": "10.1371/journal.pone.0012255.g004",
       "thumbnailPath": [

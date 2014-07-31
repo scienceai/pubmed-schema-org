@@ -80,7 +80,7 @@
       ],
       "distribution": [
         {
-          "contentData": "<!DOCTYPE html><html><head><meta charset=\"utf-8\"></head><body><table><colgroup><col/><col/><col/></colgroup><thead><tr><th> </th><th><bold>CooVar</bold></th><th><bold>VEP</bold></th></tr></thead><tbody><tr><td>Runtime<hr/></td><td>36m<hr/></td><td>37h 24m<hr/></td></tr><tr><td>Total reported GVs<hr/></td><td>4,158,840<hr/></td><td>4,043,939<hr/></td></tr><tr><td> Intronic/intergenic/UTR<hr/></td><td>4,133,885<hr/></td><td>4,019,490<hr/></td></tr><tr><td> Impacting protein-coding exon<hr/></td><td>24,955<hr/></td><td>24,449<hr/></td></tr><tr><td>  Synonymous/stop retained<hr/></td><td>11,585<hr/></td><td>11,434<hr/></td></tr><tr><td>  Missense<hr/></td><td>12,011<hr/></td><td>11,576<hr/></td></tr><tr><td>   Conservative (%)<sup>$</sup><hr/></td><td>9,526 (79.3)<hr/></td><td>7,447 (64.3)<hr/></td></tr><tr><td>   Non-conservative (%)<sup>+</sup><hr/></td><td>2,485 (20.7)<hr/></td><td>2,110 (18.3)<hr/></td></tr><tr><td>   Unknown consequence (%)<hr/></td><td>0 (0)<hr/></td><td>2,019 (17.4)<hr/></td></tr><tr><td>  Splice donor/acceptor<hr/></td><td>97<hr/></td><td>184<hr/></td></tr><tr><td>  Stop lost<hr/></td><td>47<hr/></td><td>46<hr/></td></tr><tr><td>  Stop gained<hr/></td><td>137<hr/></td><td>134<hr/></td></tr><tr><td>  Frameshift<hr/></td><td>470<hr/></td><td>490<hr/></td></tr><tr><td>  Inframe<hr/></td><td>199<hr/></td><td>165<hr/></td></tr><tr><td>  Other<hr/></td><td>0<hr/></td><td>31<hr/></td></tr><tr><td>  Multiple*<hr/></td><td>409<hr/></td><td>389<hr/></td></tr><tr><td>ORF disrupted</td><td>782<sup>¥</sup></td><td>871<sup>§</sup></td></tr></tbody></table></body></html>",
+          "contentData": "<table><colgroup><col/><col/><col/></colgroup><thead><tr><th> </th><th><bold>CooVar</bold></th><th><bold>VEP</bold></th></tr></thead><tbody><tr><td>Runtime<hr/></td><td>36m<hr/></td><td>37h 24m<hr/></td></tr><tr><td>Total reported GVs<hr/></td><td>4,158,840<hr/></td><td>4,043,939<hr/></td></tr><tr><td> Intronic/intergenic/UTR<hr/></td><td>4,133,885<hr/></td><td>4,019,490<hr/></td></tr><tr><td> Impacting protein-coding exon<hr/></td><td>24,955<hr/></td><td>24,449<hr/></td></tr><tr><td>  Synonymous/stop retained<hr/></td><td>11,585<hr/></td><td>11,434<hr/></td></tr><tr><td>  Missense<hr/></td><td>12,011<hr/></td><td>11,576<hr/></td></tr><tr><td>   Conservative (%)<sup>$</sup><hr/></td><td>9,526 (79.3)<hr/></td><td>7,447 (64.3)<hr/></td></tr><tr><td>   Non-conservative (%)<sup>+</sup><hr/></td><td>2,485 (20.7)<hr/></td><td>2,110 (18.3)<hr/></td></tr><tr><td>   Unknown consequence (%)<hr/></td><td>0 (0)<hr/></td><td>2,019 (17.4)<hr/></td></tr><tr><td>  Splice donor/acceptor<hr/></td><td>97<hr/></td><td>184<hr/></td></tr><tr><td>  Stop lost<hr/></td><td>47<hr/></td><td>46<hr/></td></tr><tr><td>  Stop gained<hr/></td><td>137<hr/></td><td>134<hr/></td></tr><tr><td>  Frameshift<hr/></td><td>470<hr/></td><td>490<hr/></td></tr><tr><td>  Inframe<hr/></td><td>199<hr/></td><td>165<hr/></td></tr><tr><td>  Other<hr/></td><td>0<hr/></td><td>31<hr/></td></tr><tr><td>  Multiple*<hr/></td><td>409<hr/></td><td>389<hr/></td></tr><tr><td>ORF disrupted</td><td>782<sup>¥</sup></td><td>871<sup>§</sup></td></tr></tbody></table>",
           "encodingFormat": "text/html"
         }
       ]
@@ -89,10 +89,11 @@
   "sourceCode": [
     {
       "name": "S1",
-      "description": "Additional file 1 CooVar program tarball (version 0.05), including README and test scripts.",
+      "headline": "Additional file 1",
+      "description": "CooVar program tarball (version 0.05), including README and test scripts.",
       "targetProduct": [
         {
-          "filePath": "/var/folders/80/myssp1jd1593qqxjk7lhms080000gn/T/ldpm-114627-11342-1ee4x2d",
+          "filePath": "/var/folders/80/myssp1jd1593qqxjk7lhms080000gn/T/ldpm-114631-4128-17bjazr",
           "bundlePath": "1756-0500-5-615-S1",
           "fileFormat": "application/x-gzip"
         }
