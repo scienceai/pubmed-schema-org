@@ -33,11 +33,11 @@ function getPkg(pmcid, pmid, callback){
   temp.mkdir('__tests', function(err, dirPath) {
     if(err) throw err;
     var ldpm = new Ldpm(conf, dirPath);
-    
+
     var tgzStream = fs.createReadStream(path.join(root, pmcid.toLowerCase() + '.tar.gz'))
       .pipe(zlib.Unzip())
       .pipe(tar.Extract({ path: dirPath, strip: 1 }));
-    
+
     tgzStream.on('end', function() {
       oapmc._pkg(pmcid, ldpm, dirPath, {pmid: pmid}, callback);
     });
@@ -79,7 +79,7 @@ describe('pubmed central', function(){
     //http://www.pubmedcentral.nih.gov/oai/oai.cgi?verb=GetRecord&identifier=oai:pubmedcentral.nih.gov:3532326&metadataPrefix=pmc
     it('should create a package.jsonld for a ms with a codeBundle and an HTML table with footnotes', function(done){
       getPkg('PMC3532326', function(err, pkg){
-        if(err) throw err;      
+        if(err) throw err;
         //fs.writeFileSync(path.join(root, 'pmc3532326.json'), JSON.stringify(pkg, null, 2));
         fs.readFile(path.join(root, 'pmc3532326.json'), function(err, expected){
           if(err) throw err;
@@ -95,17 +95,17 @@ describe('pubmed central', function(){
 
   });
 
-  describe('html body', function(){  
+  describe('html body', function(){
     it('should parse body', function(done){
-      getPkg('PMC3532326', function(err, pkg, files, inlines, $doc){
-        oapmc._html(pkg, files, inlines, $doc, function(err, html){
-          if(err) throw err;          
+      getPkg('PMC2924383', function(err, pkg, root, files, inlines, $doc){
+        oapmc._html(pkg, root, files, inlines, $doc, function(err, html){
+          if(err) throw err;
           var $HOME = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
           fs.writeFileSync(path.join($HOME, 'Desktop/pm.html'), html, {encoding: 'utf8'});
           //          console.log(html);
           done();
         });
-      });      
+      });
     });
   });
 

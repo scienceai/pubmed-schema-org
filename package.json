@@ -28,6 +28,7 @@
   "dependencies": {
     "ldpm": "*",
     "mesh-tree": "*",
+    "package-jsonld": "*",
     "is-url": "~1.1.0",
     "clone": "~0.1.17",
     "recursive-readdir": "~1.1.2",
