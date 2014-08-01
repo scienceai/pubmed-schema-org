@@ -97,7 +97,7 @@ describe('pubmed central', function(){
 
   describe('html body', function(){
     it('should parse body', function(done){
-      getPkg('PMC2924383', function(err, pkg, root, files, inlines, $doc){
+      getPkg('PMC3532326', function(err, pkg, root, files, inlines, $doc){
         oapmc._html(pkg, root, files, inlines, $doc, function(err, html){
           if(err) throw err;
           var $HOME = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
