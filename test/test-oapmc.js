@@ -7,6 +7,7 @@ var path = require('path')
   , temp = require('temp')
   , Ldpm = require('ldpm')
   , DOMParser = require('xmldom').DOMParser
+  , beautifyHtml = require('js-beautify').html
   , oapmc = require('../lib/oapmc');
 
 temp.track();
@@ -101,7 +102,8 @@ describe('pubmed central', function(){
         oapmc._html(pkg, root, files, inlines, $doc, function(err, html){
           if(err) throw err;
           var $HOME = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
-          fs.writeFileSync(path.join($HOME, 'Desktop/pm.html'), html, {encoding: 'utf8'});
+
+          fs.writeFileSync(path.join($HOME, 'Desktop/pm.html'), beautifyHtml(html, {indent_size: 2}), {encoding: 'utf8'});
           //          console.log(html);
           done();
         });
