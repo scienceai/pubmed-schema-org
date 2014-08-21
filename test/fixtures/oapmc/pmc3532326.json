@@ -1,4 +1,5 @@
 {
+  "@context": "https://registry.standardanalytics.io/context.jsonld",
   "@id": "bmc-res-notes-vergara-2012",
   "@type": "MedicalScholarlyArticle",
   "version": "0.0.0",
@@ -21,7 +22,7 @@
     "@type": "Person",
     "givenName": "Ismael A",
     "familyName": "Vergara",
-    "email": "ivergara@gmail.com",
+    "email": "mailto:ivergara@gmail.com",
     "affiliation": [
       {
         "@type": "Organization",
@@ -38,7 +39,7 @@
       "@type": "Person",
       "givenName": "Christian",
       "familyName": "Frech",
-      "email": "frech.christian@gmail.com",
+      "email": "mailto:frech.christian@gmail.com",
       "affiliation": [
         {
           "@type": "Organization",
@@ -50,7 +51,7 @@
       "@type": "Person",
       "givenName": "Nansheng",
       "familyName": "Chen",
-      "email": "chenn@sfu.ca",
+      "email": "mailto:chenn@sfu.ca",
       "affiliation": [
         {
           "@type": "Organization",
@@ -59,11 +60,20 @@
       ]
     }
   ],
-  "accountablePerson": {
-    "@type": "Organization",
-    "name": "Standard Analytics IO",
-    "email": "contact@standardanalytics.io"
-  },
+  "accountablePerson": [
+    {
+      "@type": "Person",
+      "givenName": "Nansheng",
+      "familyName": "Chen",
+      "email": "mailto:chenn@sfu.ca",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "description": "Department of Molecular Biology and Biochemistry, Simon Fraser University, 8888 University Drive, Burnaby, B.C., V5A 1S6, Canada"
+        }
+      ]
+    }
+  ],
   "publisher": {
     "@type": "Organization",
     "name": "BioMed Central"

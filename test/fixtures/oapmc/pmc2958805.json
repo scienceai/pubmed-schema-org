@@ -1,4 +1,5 @@
 {
+  "@context": "https://registry.standardanalytics.io/context.jsonld",
   "@id": "plos-comput-biol-rapoport-2010",
   "@type": "MedicalScholarlyArticle",
   "version": "0.0.0",
@@ -22,7 +23,7 @@
     "@type": "Person",
     "givenName": "Benjamin I.",
     "familyName": "Rapoport",
-    "email": "brapoport@post.harvard.edu",
+    "email": "mailto:brapoport@post.harvard.edu",
     "affiliation": [
       {
         "@type": "Organization",
@@ -48,11 +49,24 @@
       ]
     }
   ],
-  "accountablePerson": {
-    "@type": "Organization",
-    "name": "Standard Analytics IO",
-    "email": "contact@standardanalytics.io"
-  },
+  "accountablePerson": [
+    {
+      "@type": "Person",
+      "givenName": "Benjamin I.",
+      "familyName": "Rapoport",
+      "email": "mailto:brapoport@post.harvard.edu",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "description": "M.D.– Ph.D. Program, Harvard Medical School, Boston, Massachusetts, United States of America."
+        },
+        {
+          "@type": "Organization",
+          "description": "Department of Electrical Engineering and Computer Science and Division of Health Sciences and Technology, Massachusetts Institute of Technology, Cambridge, Massachusetts, United States of America."
+        }
+      ]
+    }
+  ],
   "publisher": {
     "@type": "Organization",
     "name": "Public Library of Science",
