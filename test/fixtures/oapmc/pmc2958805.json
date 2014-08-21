@@ -1679,5 +1679,101 @@
         }
       }
     }
+  ],
+  "about": [
+    {
+      "@id": "http://www.ncbi.nlm.nih.gov/mesh/M01.060.116",
+      "@type": "MedicalEntity",
+      "name": "Adult",
+      "code": {
+        "@type": "MedicalCode",
+        "codeValue": "M01.060.116",
+        "codingSystem": "MeSH"
+      },
+      "majorTopic": false
+    },
+    {
+      "@type": "MedicalEntity",
+      "name": "Female",
+      "majorTopic": false
+    },
+    {
+      "@id": "http://www.ncbi.nlm.nih.gov/mesh/B01.050.150.900.649.801.400.112.400.400",
+      "@type": "MedicalEntity",
+      "name": "Humans",
+      "code": {
+        "@type": "MedicalCode",
+        "codeValue": "B01.050.150.900.649.801.400.112.400.400",
+        "codingSystem": "MeSH"
+      },
+      "majorTopic": false
+    },
+    {
+      "@id": "http://www.ncbi.nlm.nih.gov/mesh/A08.800.800.720.800.350",
+      "@type": "MedicalEntity",
+      "name": "Intercostal Nerves",
+      "code": {
+        "@type": "MedicalCode",
+        "codeValue": "A08.800.800.720.800.350",
+        "codingSystem": "MeSH"
+      },
+      "majorTopic": true
+    },
+    {
+      "@id": "http://www.ncbi.nlm.nih.gov/mesh/M01.060.116.630",
+      "@type": "MedicalEntity",
+      "name": "Middle Aged",
+      "code": {
+        "@type": "MedicalCode",
+        "codeValue": "M01.060.116.630",
+        "codingSystem": "MeSH"
+      },
+      "majorTopic": false
+    },
+    {
+      "@id": "http://www.ncbi.nlm.nih.gov/mesh/C10.668.829.550",
+      "@type": "MedicalEntity",
+      "name": "Nerve Compression Syndromes",
+      "code": {
+        "@type": "MedicalCode",
+        "codeValue": "C10.668.829.550",
+        "codingSystem": "MeSH"
+      },
+      "majorTopic": false,
+      "description": "diagnosis"
+    },
+    {
+      "@id": "http://www.ncbi.nlm.nih.gov/mesh/A02.835.232.904.567",
+      "@type": "MedicalEntity",
+      "name": "Ribs",
+      "code": {
+        "@type": "MedicalCode",
+        "codeValue": "A02.835.232.904.567",
+        "codingSystem": "MeSH"
+      },
+      "majorTopic": false
+    },
+    {
+      "@id": "http://www.ncbi.nlm.nih.gov/mesh/C23.550.288.500",
+      "@type": "MedicalEntity",
+      "name": "Syndrome",
+      "code": {
+        "@type": "MedicalCode",
+        "codeValue": "C23.550.288.500",
+        "codingSystem": "MeSH"
+      },
+      "majorTopic": false
+    },
+    {
+      "@id": "http://www.ncbi.nlm.nih.gov/mesh/A08.800.800.720.800",
+      "@type": "MedicalEntity",
+      "name": "Thoracic Nerves",
+      "code": {
+        "@type": "MedicalCode",
+        "codeValue": "A08.800.800.720.800",
+        "codingSystem": "MeSH"
+      },
+      "majorTopic": true
+    }
   ]
 }
