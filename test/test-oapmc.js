@@ -43,7 +43,7 @@ function getPkg(pmcid, opts, callback){
     tgzStream.on('end', function() {
       oapmc._pkg(pmcid, ldpm, dirPath, opts, function(err, pkg, root, files, inlines, $doc){
         if(err) return callback(err);
-        traverse(pkg).forEach(function (x) { if (this.key === 'dateModified') this.remove(); });
+        traverse(pkg).forEach(function(x) { if (this.key === 'dateModified') this.remove(); });
         if (opts.html) {
           oapmc._html(pkg, root, files, inlines, $doc, callback);
         } else {

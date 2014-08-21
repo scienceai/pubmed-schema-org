@@ -19,6 +19,7 @@ var argv = optimist
   )
   .alias('h', 'help').describe('h', 'print usage')
   .alias('v', 'version').describe('v', 'print version number')
+  .alias('q', 'quiet').describe('q', 'no verbose')
   .argv;
 
 if(argv.h){
@@ -33,7 +34,9 @@ if(argv.v){
 
 var ldpm = new Ldpm(process.cwd());
 
-ldpm.on('log', console.log);
+if(!argv.q){
+  ldpm.on('log', console.log);
+}
 
 if (argv._[0] === 'convert'){
 
@@ -42,6 +45,7 @@ if (argv._[0] === 'convert'){
 
     ldpmPubmed.convert.call(ldpm, id, {html:true}, function(err, pkg, html){
       if(err) _fail(err);
+      fs.writeFile(path.join(ldpm.root, 'JSONLD'), JSON.stringify(pkg, null, 2), _fail);
     });
 
   })();

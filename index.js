@@ -10,8 +10,6 @@ var url = require('url')
  */
 function convert(id, opts, callback){
 
-  var that = this;
-
   if(arguments.length === 2){
     callback = opts;
     opts = {};
@@ -19,10 +17,10 @@ function convert(id, opts, callback){
   opts = clone(opts);
 
   var uri = "http://www.pubmedcentral.nih.gov/utils/idconv/v1.0/?ids=" + id + '&format=json';
-  that.log('GET', uri);
+  this.log('GET', uri);
   request(uri,function(error, response, body){
     if(error) return callback(error);
-    that.log(response.statusCode, uri);
+    this.log(response.statusCode, uri);
 
     if(response.statusCode >= 400){
       var err = new Error(body);
@@ -43,16 +41,23 @@ function convert(id, opts, callback){
       opts.doi = body.records[0].doi;
 
       if (opts.pmcid){
-        oapmc.call(that, opts.pmcid, opts, callback); //passing a pmid (if not undefined => add pubmed annotation)
+        oapmc.call(this, opts.pmcid, opts, function(err, pkg, html){//passing a pmid (if not undefined => add pubmed annotation)
+          if (err && opts.pmid) {
+            this.emit('log', 'ldpm-pubmed'.grey +  ' ERR! '.red + err.message + (('code' in err) ? ' (' + err.code + ')': ''));
+            pubmed.call(this, opts.pmid, opts, callback);
+          } else {
+            callback(err, pkg, html);
+          }
+        }.bind(this));
       } else if(opts.pmid){
-        pubmed.call(that, opts.pmid, opts, callback);
+        pubmed.call(this, opts.pmid, opts, callback);
       } else {
         callback(new Error('the id cannot be recognized'));
       }
     } else {
       callback(new Error('the id cannot be recognized'));
     }
-  });
+  }.bind(this));
 
 };
 
