@@ -1,6 +1,12 @@
 {
-  "name": "plos-one-teramoto-2010",
+  "@id": "plos-one-teramoto-2010",
+  "@type": "MedicalScholarlyArticle",
   "version": "0.0.0",
+  "sameAs": [
+    "http://doi.org/10.1371/journal.pone.0012255",
+    "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924383",
+    "http://www.ncbi.nlm.nih.gov/pubmed/20808861"
+  ],
   "keywords": [
     "Research Article",
     "Neuroscience/Sensory Systems",
@@ -8,10 +14,9 @@
     "Neuroscience/Experimental Psychology"
   ],
   "datePublished": "2010-08-18T19:00:00.000Z",
-  "description": "Sounds Move a Static Visual Object",
-  "license": {
-    "text": "Terms of Use for Article PLoS One. 2010 Aug 19; 5(8):e12255 Read the license and copyright statements in the XML or PDF files for this article before reusing or redistributing any part of the article. The license and copyright statements define what uses of the article are permitted, and apply to all associated files, including images and supplementary material. The terms and conditions of use are not identical for all articles. Contact the publisher if you have any questions about the permissible uses of the article."
-  },
+  "headline": "Sounds Move a Static Visual Object",
+  "alternativeHeadline": "Sounds Move a Visual Object",
+  "license": "http://www.ncbi.nlm.nih.gov/pmc/about/copyright/",
   "author": {
     "@type": "Person",
     "givenName": "Wataru",
@@ -52,864 +57,906 @@
       ]
     }
   ],
-  "provider": {
-    "@type": "Organization",
-    "@id": "http://www.ncbi.nlm.nih.gov/pmc/",
-    "description": "From PMC®, a database of the U.S. National Library of Medicine."
-  },
+  "editor": [
+    {
+      "@type": "Person",
+      "givenName": "Justin",
+      "familyName": "Harris",
+      "jobTitle": "Editor",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "description": "University of Sydney, Australia"
+        }
+      ]
+    }
+  ],
   "accountablePerson": {
     "@type": "Organization",
     "name": "Standard Analytics IO",
     "email": "contact@standardanalytics.io"
   },
-  "image": [
+  "publisher": {
+    "@type": "Organization",
+    "name": "Public Library of Science",
+    "location": {
+      "@type": "PostalAddress",
+      "description": "San Francisco, USA"
+    }
+  },
+  "abstract": [
     {
+      "@type": "Abstract",
+      "hasPart": [
+        {
+          "@type": "Abstract",
+          "headline": "Background",
+          "abstractBody": "Vision provides the most salient information with regard to stimulus motion, but audition can also provide important cues that affect visual motion perception. Here, we show that sounds containing no motion or positional cues can induce illusory visual motion perception for static visual objects."
+        },
+        {
+          "@type": "Abstract",
+          "headline": "Methodology/Principal Findings",
+          "abstractBody": "Two circles placed side by side were presented in alternation producing apparent motion perception and each onset was accompanied by a tone burst of a specific and unique frequency. After exposure to this visual apparent motion with tones for a few minutes, the tones became drivers for illusory motion perception. When the flash onset was synchronized to tones of alternating frequencies, a circle blinking at a fixed location was perceived as lateral motion in the same direction as the previously exposed apparent motion. Furthermore, the effect lasted at least for a few days. The effect was well observed at the retinal position that was previously exposed to apparent motion with tone bursts."
+        },
+        {
+          "@type": "Abstract",
+          "headline": "Conclusions/Significance",
+          "abstractBody": "The present results indicate that strong association between sound sequence and visual motion is easily formed within a short period and that, after forming the association, sounds are able to trigger visual motion perception for a static visual object."
+        }
+      ]
+    }
+  ],
+  "provider": {
+    "@type": "Organization",
+    "@id": "http://www.ncbi.nlm.nih.gov/pmc/",
+    "description": "From PMC®, a database of the U.S. National Library of Medicine."
+  },
+  "isPartOf": {
+    "@type": "PublicationIssue",
+    "issueNumber": 8,
+    "isPartOf": {
+      "@type": "PublicationVolume",
+      "volumeNumber": 5,
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "PLoS ONE",
+        "alternateName": "PLoS One",
+        "issn": "1932-6203"
+      }
+    }
+  },
+  "citation": [
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/9002513"
+      ],
+      "name": "pone.0012255-Sekuler1",
+      "alternateName": "1",
+      "@type": "ScholarlyArticle",
+      "headline": "Sound alters visual motion perception.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 385,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Nature"
+        }
+      },
+      "pageStart": 308,
+      "datePublished": "1996-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "R",
+        "familyName": "Sekuler"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "AB",
+          "familyName": "Sekuler"
+        },
+        {
+          "@type": "Person",
+          "givenName": "R",
+          "familyName": "Lau"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/9231224"
+      ],
+      "name": "pone.0012255-Shimojo1",
+      "alternateName": "2",
+      "@type": "ScholarlyArticle",
+      "headline": "Visual motion sensation yielded by non-visually driven attention.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 37,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Vision Res"
+        }
+      },
+      "pageStart": 1575,
+      "pageEnd": 1580,
+      "datePublished": "1996-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "S",
+        "familyName": "Shimojo"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "S",
+          "familyName": "Miyauchi"
+        },
+        {
+          "@type": "Person",
+          "givenName": "O",
+          "familyName": "Hikosaka"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/11340918"
+      ],
+      "name": "pone.0012255-Watanabe1",
+      "alternateName": "3",
+      "@type": "ScholarlyArticle",
+      "headline": "When sound affects vision: effects of auditory grouping on visual motion perception.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 12,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Psychol Sci"
+        }
+      },
+      "pageStart": 109,
+      "pageEnd": 116,
+      "datePublished": "2000-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "K",
+        "familyName": "Watanabe"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "S",
+          "familyName": "Shimojo"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/18718760"
+      ],
+      "name": "pone.0012255-Freeman1",
+      "alternateName": "4",
+      "@type": "ScholarlyArticle",
+      "headline": "Direction of visual apparent motion driven solely by timing of a static sound.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 18,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Curr Biol"
+        }
+      },
+      "pageStart": 1262,
+      "pageEnd": 1266,
+      "datePublished": "2007-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "E",
+        "familyName": "Freeman"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "J",
+          "familyName": "Driver"
+        }
+      ]
+    },
+    {
+      "@id": "http://doi.org/10.1371/journal.pone.0008188",
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/19997648",
+        "http://dx.doi.org/10.1371/journal.pone.0008188"
+      ],
+      "name": "pone.0012255-Hidaka1",
+      "alternateName": "5",
+      "@type": "ScholarlyArticle",
+      "headline": "Alternation of sound location induces visual motion perception of a static object.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 4,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Plos ONE"
+        }
+      },
+      "comment": {
+        "@type": "Comment",
+        "text": "doi:10.1371/journal.pone.0008188"
+      },
+      "pageStart": "e8188",
+      "datePublished": "2008-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "S",
+        "familyName": "Hidaka"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "Y",
+          "familyName": "Manaka"
+        },
+        {
+          "@type": "Person",
+          "givenName": "W",
+          "familyName": "Teramoto"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Y",
+          "familyName": "Sugita"
+        },
+        {
+          "@type": "Person",
+          "givenName": "R",
+          "familyName": "Miyauchi"
+        }
+      ],
+      "unnamedContributors": true
+    },
+    {
+      "name": "pone.0012255-Teramoto1",
+      "alternateName": "6",
+      "@type": "Book",
+      "headline": "Visual motion perception induced by sounds in vertical plane.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Neurosci Lett In press"
+      },
+      "datePublished": "2009-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "W",
+        "familyName": "Teramoto"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "Y",
+          "familyName": "Manaka"
+        },
+        {
+          "@type": "Person",
+          "givenName": "S",
+          "familyName": "Hidaka"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Y",
+          "familyName": "Sugita"
+        },
+        {
+          "@type": "Person",
+          "givenName": "R",
+          "familyName": "Miyauchi"
+        }
+      ],
+      "unnamedContributors": true
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/10982748"
+      ],
+      "name": "pone.0012255-Lewis1",
+      "alternateName": "7",
+      "@type": "ScholarlyArticle",
+      "headline": "A comparison of visual and auditory motion processing in human cerebral cortex.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 10,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Cereb Cortex"
+        }
+      },
+      "pageStart": 873,
+      "pageEnd": 888,
+      "datePublished": "1999-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "JW",
+        "familyName": "Lewis"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "MS",
+          "familyName": "Beauchamp"
+        },
+        {
+          "@type": "Person",
+          "givenName": "EA",
+          "familyName": "DeYoe"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/18337398"
+      ],
+      "name": "pone.0012255-Alink1",
+      "alternateName": "8",
+      "@type": "ScholarlyArticle",
+      "headline": "Capture of auditory motion by vision is represented by an activation shift from auditory to visual motion cortex.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 28,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "J Neurosci"
+        }
+      },
+      "pageStart": 2690,
+      "pageEnd": 2697,
+      "datePublished": "2007-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "A",
+        "familyName": "Alink"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "W",
+          "familyName": "Singer"
+        },
+        {
+          "@type": "Person",
+          "givenName": "L",
+          "familyName": "Muckli"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/14761661"
+      ],
+      "name": "pone.0012255-Alais1",
+      "alternateName": "9",
+      "@type": "ScholarlyArticle",
+      "headline": "The ventriloquist effect results from near-optimal bimodal integration.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 14,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Curr Biol"
+        }
+      },
+      "pageStart": 257,
+      "pageEnd": 262,
+      "datePublished": "2003-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "D",
+        "familyName": "Alais"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "D",
+          "familyName": "Burr"
+        }
+      ]
+    },
+    {
+      "name": "pone.0012255-Alais2",
+      "alternateName": "10",
+      "@type": "ScholarlyArticle",
+      "headline": "No direction-specific bimodal facilitation for audiovisual motion detection.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 19,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Brain Res: Cog Brain Res"
+        }
+      },
+      "pageStart": 185,
+      "pageEnd": 194,
+      "datePublished": "2003-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "D",
+        "familyName": "Alais"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "D",
+          "familyName": "Burr"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/11496148"
+      ],
+      "name": "pone.0012255-Meyer1",
+      "alternateName": "11",
+      "@type": "ScholarlyArticle",
+      "headline": "Cross-modal integration of auditory and visual motion signals.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 12,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Neuroreport"
+        }
+      },
+      "pageStart": 2557,
+      "pageEnd": 2560,
+      "datePublished": "2000-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "GF",
+        "familyName": "Meyer"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "SM",
+          "familyName": "Wuerger"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/15053692"
+      ],
+      "name": "pone.0012255-SotoFaraco1",
+      "alternateName": "12",
+      "@type": "ScholarlyArticle",
+      "headline": "Cross-modal dynamic capture: Congruency effects in the perception of motion across sensory modalities.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 30,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "J Exp Psychol: Human Percept Perform"
+        }
+      },
+      "pageStart": 330,
+      "pageEnd": 345,
+      "datePublished": "2003-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "S",
+        "familyName": "Soto-Faraco"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "C",
+          "familyName": "Spence"
+        },
+        {
+          "@type": "Person",
+          "givenName": "A",
+          "familyName": "Kingstone"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/5061577"
+      ],
+      "name": "pone.0012255-Favreau1",
+      "alternateName": "13",
+      "@type": "ScholarlyArticle",
+      "headline": "Motion perception: a color-contingent aftereffect.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 176,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Science"
+        }
+      },
+      "pageStart": 78,
+      "pageEnd": 79,
+      "datePublished": "1971-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "OE",
+        "familyName": "Favreau"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "VF",
+          "familyName": "Emerson"
+        },
+        {
+          "@type": "Person",
+          "givenName": "MC",
+          "familyName": "Corballis"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/10491604"
+      ],
+      "name": "pone.0012255-Dong1",
+      "alternateName": "14",
+      "@type": "ScholarlyArticle",
+      "headline": "A contingent aftereffect in the auditory system.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 2,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Nature Neurosci"
+        }
+      },
+      "pageStart": 863,
+      "pageEnd": 865,
+      "datePublished": "1998-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "CJ",
+        "familyName": "Dong"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "NV",
+          "familyName": "Swindale"
+        },
+        {
+          "@type": "Person",
+          "givenName": "MS",
+          "familyName": "Cynader"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/12807410"
+      ],
+      "name": "pone.0012255-Vroomen1",
+      "alternateName": "15",
+      "@type": "ScholarlyArticle",
+      "headline": "Visual motion influences the contingent auditory motion aftereffect.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 14,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Psychol Sci"
+        }
+      },
+      "pageStart": 357,
+      "pageEnd": 361,
+      "datePublished": "2002-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "J",
+        "familyName": "Vroomen"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "B",
+          "familyName": "de Gelder"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/16387858"
+      ],
+      "name": "pone.0012255-Haijiang1",
+      "alternateName": "16",
+      "@type": "ScholarlyArticle",
+      "headline": "Demonstration of cue recruitment: Change in visual appearance by means of Pavlovian conditioning.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 103,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Proc Natl Acad Sci USA"
+        }
+      },
+      "pageStart": 483,
+      "pageEnd": 488,
+      "datePublished": "2005-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "Q",
+        "familyName": "Haijiang"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "JA",
+          "familyName": "Saunders"
+        },
+        {
+          "@type": "Person",
+          "givenName": "RW",
+          "familyName": "Stone"
+        },
+        {
+          "@type": "Person",
+          "givenName": "BT",
+          "familyName": "Backus"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/17303207"
+      ],
+      "name": "pone.0012255-Backus1",
+      "alternateName": "17",
+      "@type": "ScholarlyArticle",
+      "headline": "Competition between newly recruited and pre-existing visual cues during the construction of visual appearance.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 47,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Vision Res"
+        }
+      },
+      "pageStart": 919,
+      "pageEnd": 924,
+      "datePublished": "2006-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "BT",
+        "familyName": "Backus"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "Q",
+          "familyName": "Haijiang"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/17317151"
+      ],
+      "name": "pone.0012255-Seitz1",
+      "alternateName": "18",
+      "@type": "ScholarlyArticle",
+      "headline": "A common framework for perceptual learning.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 17,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Curr Opin Neurobiol"
+        }
+      },
+      "pageStart": 148,
+      "pageEnd": 153,
+      "datePublished": "2006-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "AR",
+        "familyName": "Seitz"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "HR",
+          "familyName": "Dinse"
+        }
+      ]
+    },
+    {
+      "sameAs": [
+        "http://www.ncbi.nlm.nih.gov/pubmed/18805039"
+      ],
+      "name": "pone.0012255-Shams1",
+      "alternateName": "19",
+      "@type": "ScholarlyArticle",
+      "headline": "Benefits of multisensory learning.",
+      "isPartOf": {
+        "@type": "PublicationVolume",
+        "volumeNumber": 12,
+        "isPartOf": {
+          "@type": "Periodical",
+          "name": "Trends Cogn Sci"
+        }
+      },
+      "pageStart": 411,
+      "pageEnd": 417,
+      "datePublished": "2007-12-31T19:00:00.000Z",
+      "author": {
+        "@type": "Person",
+        "givenName": "L",
+        "familyName": "Shams"
+      },
+      "contributor": [
+        {
+          "@type": "Person",
+          "givenName": "AR",
+          "familyName": "Seitz"
+        }
+      ]
+    }
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "filePath": "pone.0012255.pdf",
+    "contentSize": 273390
+  },
+  "hasPart": [
+    {
+      "@id": "plos-one-teramoto-2010/pone-0012255-g001",
+      "@type": "ImageObject",
+      "sameAs": [
+        "http://doi.org/10.1371/journal.pone.0012255.g001"
+      ],
       "name": "pone-0012255-g001",
       "alternateName": "Figure 1",
       "headline": "Experimental design.",
       "caption": "In an adaptation phase, observers were exposed to visual apparent motion for 3 min in which two white circles placed side by side were presented in alternation. The onset of leftward circle was accompanied by a tone A and the rightward circle a tone B. In a test phase, a white circle was presented twice. The circle was perceived as lateral motion in the same direction as the previously exposed apparent motion, when the onset of the circle was synchronized to tones of alternating frequencies. When the onset of the first circle was synchronized to the tone A and the second circle the tone B, the circle appeared to move from left to right. The strength of this illusory motion was quantified by a motion nulling procedure.",
-      "doi": "10.1371/journal.pone.0012255.g001",
-      "thumbnailPath": [
-        "pone.0012255.g001.gif"
-      ],
-      "encoding": [
-        {
-          "contentPath": "pone.0012255.g001.jpg",
-          "encodingFormat": "image/jpeg"
+      "encoding": {
+        "@type": "MediaObject",
+        "encodingFormat": "image/jpeg",
+        "filePath": "pone.0012255.g001.jpg",
+        "contentSize": 41874
+      },
+      "thumbnail": {
+        "@type": "ImageObject",
+        "encoding": {
+          "@type": "MediaObject",
+          "encodingFormat": "image/gif",
+          "filePath": "pone.0012255.g001.gif",
+          "contentSize": 1650
         }
-      ]
+      }
     },
     {
+      "@id": "plos-one-teramoto-2010/pone-0012255-g002",
+      "@type": "ImageObject",
+      "sameAs": [
+        "http://doi.org/10.1371/journal.pone.0012255.g002"
+      ],
       "name": "pone-0012255-g002",
       "alternateName": "Figure 2",
       "headline": "Sound-contingent visual motion aftereffects.",
       "caption": "(A) The proportion of rightward motion perception of visual stimuli as a function of the amount of physical displacements of visual stimuli. Positive values indicate rightward visual motion in the horizontal axis and negative values leftward visual motion. Blue lines represent the results for leftward sound condition and red lines rightward sound condition. Dashed lines represent the results obtained before adaptation. Filled circles represent the results obtained immediately after adaptation and open circles 3 days after adaptation. (B) The points of subjective stationarity (PSS). Positive values represent the shift of PSS in the direction of the leftward visual motion. Blue bars represent the results for leftward sound condition, red bars rightward sound condition, and gray bars no sound condition. Error bar denotes the standard error of the mean.",
-      "doi": "10.1371/journal.pone.0012255.g002",
-      "thumbnailPath": [
-        "pone.0012255.g002.gif"
-      ],
-      "encoding": [
-        {
-          "contentPath": "pone.0012255.g002.jpg",
-          "encodingFormat": "image/jpeg"
+      "encoding": {
+        "@type": "MediaObject",
+        "encodingFormat": "image/jpeg",
+        "filePath": "pone.0012255.g002.jpg",
+        "contentSize": 86875
+      },
+      "thumbnail": {
+        "@type": "ImageObject",
+        "encoding": {
+          "@type": "MediaObject",
+          "encodingFormat": "image/gif",
+          "filePath": "pone.0012255.g002.gif",
+          "contentSize": 4105
         }
-      ]
+      }
     },
     {
+      "@id": "plos-one-teramoto-2010/pone-0012255-g003",
+      "@type": "ImageObject",
+      "sameAs": [
+        "http://doi.org/10.1371/journal.pone.0012255.g003"
+      ],
       "name": "pone-0012255-g003",
       "alternateName": "Figure 3",
       "headline": "Points of subjective stationarity.",
       "caption": "(A) Results measured at 5° right of the fixation. (B) Results measured at 20° right of the fixation. Positive values represent the shift of PSS in the direction of the leftward visual motion. Blue bars represent the results for leftward sound condition, red bars rightward sound condition, and gray bars no sound condition. Error bar denotes the standard error of the mean.",
-      "doi": "10.1371/journal.pone.0012255.g003",
-      "thumbnailPath": [
-        "pone.0012255.g003.gif"
-      ],
-      "encoding": [
-        {
-          "contentPath": "pone.0012255.g003.jpg",
-          "encodingFormat": "image/jpeg"
+      "encoding": {
+        "@type": "MediaObject",
+        "encodingFormat": "image/jpeg",
+        "filePath": "pone.0012255.g003.jpg",
+        "contentSize": 60991
+      },
+      "thumbnail": {
+        "@type": "ImageObject",
+        "encoding": {
+          "@type": "MediaObject",
+          "encodingFormat": "image/gif",
+          "filePath": "pone.0012255.g003.gif",
+          "contentSize": 2663
         }
-      ]
+      }
     },
     {
+      "@id": "plos-one-teramoto-2010/pone-0012255-g004",
+      "@type": "ImageObject",
+      "sameAs": [
+        "http://doi.org/10.1371/journal.pone.0012255.g004"
+      ],
       "name": "pone-0012255-g004",
       "alternateName": "Figure 4",
       "headline": "Points of subjective stationarity measured at 10° left of the fixation.",
       "caption": "(A) PSSs before and after adaptation to 1000 ms SOA. (B) PSSs after adaptation to 500 ms SOA. Positive values represent the shift of PSS in the direction of the leftward visual motion. Blue bars represent the results for leftward sound condition, red bars rightward sound condition, and gray bars no sound condition. Error bar denotes the standard error of the mean.",
-      "doi": "10.1371/journal.pone.0012255.g004",
-      "thumbnailPath": [
-        "pone.0012255.g004.gif"
-      ],
-      "encoding": [
-        {
-          "contentPath": "pone.0012255.g004.jpg",
-          "encodingFormat": "image/jpeg"
+      "encoding": {
+        "@type": "MediaObject",
+        "encodingFormat": "image/jpeg",
+        "filePath": "pone.0012255.g004.jpg",
+        "contentSize": 52546
+      },
+      "thumbnail": {
+        "@type": "ImageObject",
+        "encoding": {
+          "@type": "MediaObject",
+          "encodingFormat": "image/gif",
+          "filePath": "pone.0012255.g004.gif",
+          "contentSize": 2211
         }
-      ]
+      }
     },
     {
+      "@id": "plos-one-teramoto-2010/pone.0012255.s001",
+      "@type": "ImageObject",
       "name": "pone.0012255.s001",
       "alternateName": "Figure S1",
       "caption": "Eye movement in the horizontal direction. The movement of right eye was recorded using infrared reflective oculography. Eye movements before (A) and after (B) the adaptation. Traces represent the movements for the last 10 trials where an observer judged that the visual stimulus moved rightward in the rightward sound condition. (C) Eye movements after the adaptation. Traces represent the movements for the last 10 trials where the observer judged that the visual stimulus moved leftward in the rightward sound condition. Vertical lines represent the onset of the visual stimulus. (0.80 MB TIF)",
       "encoding": [
         {
-          "contentPath": "pone.0012255.s001.tif",
-          "encodingFormat": "image/tiff"
+          "@type": "MediaObject",
+          "encodingFormat": "image/tiff",
+          "filePath": "pone.0012255.s001.tif",
+          "contentSize": 797786
         }
       ]
-    }
-  ],
-  "article": [
+    },
     {
-      "name": "pone.0012255",
-      "encoding": [
-        {
-          "contentPath": "pone.0012255.pdf",
-          "encodingFormat": "application/pdf"
-        }
-      ],
-      "@type": "ScholarlyArticle",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Public Library of Science",
-        "location": {
-          "@type": "PostalAddress",
-          "description": "San Francisco, USA"
-        }
-      },
-      "editor": [
-        {
-          "@type": "Person",
-          "givenName": "Justin",
-          "familyName": "Harris",
-          "jobTitle": "Editor",
-          "affiliation": [
-            {
-              "@type": "Organization",
-              "description": "University of Sydney, Australia"
-            }
-          ]
-        }
-      ],
-      "accountablePerson": [
-        {
-          "@type": "Person",
-          "givenName": "Yoichi",
-          "familyName": "Sugita",
-          "email": "y.sugita@aist.go.jp",
-          "affiliation": [
-            {
-              "@type": "Organization",
-              "description": "Neuroscience Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), Tsukuba, Ibaraki, Japan."
-            }
-          ]
-        }
-      ],
-      "doi": "10.1371/journal.pone.0012255",
-      "pmid": "20808861",
-      "pmcid": "PMC2924383",
-      "headline": "Sounds Move a Static Visual Object",
-      "alternativeHeadline": "Sounds Move a Visual Object",
-      "abstract": [
-        {
-          "@type": "Abstract",
-          "hasPart": [
-            {
-              "@type": "Abstract",
-              "headline": "Background",
-              "abstractBody": "Vision provides the most salient information with regard to stimulus motion, but audition can also provide important cues that affect visual motion perception. Here, we show that sounds containing no motion or positional cues can induce illusory visual motion perception for static visual objects."
-            },
-            {
-              "@type": "Abstract",
-              "headline": "Methodology/Principal Findings",
-              "abstractBody": "Two circles placed side by side were presented in alternation producing apparent motion perception and each onset was accompanied by a tone burst of a specific and unique frequency. After exposure to this visual apparent motion with tones for a few minutes, the tones became drivers for illusory motion perception. When the flash onset was synchronized to tones of alternating frequencies, a circle blinking at a fixed location was perceived as lateral motion in the same direction as the previously exposed apparent motion. Furthermore, the effect lasted at least for a few days. The effect was well observed at the retinal position that was previously exposed to apparent motion with tone bursts."
-            },
-            {
-              "@type": "Abstract",
-              "headline": "Conclusions/Significance",
-              "abstractBody": "The present results indicate that strong association between sound sequence and visual motion is easily formed within a short period and that, after forming the association, sounds are able to trigger visual motion perception for a static visual object."
-            }
-          ]
-        }
-      ],
-      "isPartOf": {
-        "@type": "PublicationIssue",
-        "issueNumber": 8,
-        "isPartOf": {
-          "@type": "PublicationVolume",
-          "volumeNumber": 5,
-          "isPartOf": {
-            "@type": "Periodical",
-            "name": "PLoS ONE",
-            "alternateName": "PLoS One",
-            "issn": "1932-6203"
-          }
-        }
-      },
-      "citation": [
-        {
-          "name": "pone.0012255-Sekuler1",
-          "alternateName": "1",
-          "pmid": "9002513",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/9002513",
-          "@type": "ScholarlyArticle",
-          "headline": "Sound alters visual motion perception.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 385,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Nature"
-            }
-          },
-          "pageStart": 308,
-          "datePublished": "1996-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "R",
-            "familyName": "Sekuler"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "AB",
-              "familyName": "Sekuler"
-            },
-            {
-              "@type": "Person",
-              "givenName": "R",
-              "familyName": "Lau"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Shimojo1",
-          "alternateName": "2",
-          "pmid": "9231224",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/9231224",
-          "@type": "ScholarlyArticle",
-          "headline": "Visual motion sensation yielded by non-visually driven attention.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 37,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Vision Res"
-            }
-          },
-          "pageStart": 1575,
-          "pageEnd": 1580,
-          "datePublished": "1996-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "S",
-            "familyName": "Shimojo"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "S",
-              "familyName": "Miyauchi"
-            },
-            {
-              "@type": "Person",
-              "givenName": "O",
-              "familyName": "Hikosaka"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Watanabe1",
-          "alternateName": "3",
-          "pmid": "11340918",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/11340918",
-          "@type": "ScholarlyArticle",
-          "headline": "When sound affects vision: effects of auditory grouping on visual motion perception.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 12,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Psychol Sci"
-            }
-          },
-          "pageStart": 109,
-          "pageEnd": 116,
-          "datePublished": "2000-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "K",
-            "familyName": "Watanabe"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "S",
-              "familyName": "Shimojo"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Freeman1",
-          "alternateName": "4",
-          "pmid": "18718760",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/18718760",
-          "@type": "ScholarlyArticle",
-          "headline": "Direction of visual apparent motion driven solely by timing of a static sound.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 18,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Curr Biol"
-            }
-          },
-          "pageStart": 1262,
-          "pageEnd": 1266,
-          "datePublished": "2007-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "E",
-            "familyName": "Freeman"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "J",
-              "familyName": "Driver"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Hidaka1",
-          "alternateName": "5",
-          "pmid": "19997648",
-          "doi": "10.1371/journal.pone.0008188",
-          "url": "http://dx.doi.org/10.1371/journal.pone.0008188",
-          "sameAs": "http://www.ncbi.nlm.nih.gov/pubmed/19997648",
-          "@type": "ScholarlyArticle",
-          "headline": "Alternation of sound location induces visual motion perception of a static object.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 4,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Plos ONE"
-            }
-          },
-          "comment": {
-            "@type": "Comment",
-            "text": "doi:10.1371/journal.pone.0008188"
-          },
-          "pageStart": "e8188",
-          "datePublished": "2008-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "S",
-            "familyName": "Hidaka"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "Y",
-              "familyName": "Manaka"
-            },
-            {
-              "@type": "Person",
-              "givenName": "W",
-              "familyName": "Teramoto"
-            },
-            {
-              "@type": "Person",
-              "givenName": "Y",
-              "familyName": "Sugita"
-            },
-            {
-              "@type": "Person",
-              "givenName": "R",
-              "familyName": "Miyauchi"
-            }
-          ],
-          "unnamedContributors": true
-        },
-        {
-          "name": "pone.0012255-Teramoto1",
-          "alternateName": "6",
-          "@type": "Book",
-          "headline": "Visual motion perception induced by sounds in vertical plane.",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Neurosci Lett In press"
-          },
-          "datePublished": "2009-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "W",
-            "familyName": "Teramoto"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "Y",
-              "familyName": "Manaka"
-            },
-            {
-              "@type": "Person",
-              "givenName": "S",
-              "familyName": "Hidaka"
-            },
-            {
-              "@type": "Person",
-              "givenName": "Y",
-              "familyName": "Sugita"
-            },
-            {
-              "@type": "Person",
-              "givenName": "R",
-              "familyName": "Miyauchi"
-            }
-          ],
-          "unnamedContributors": true
-        },
-        {
-          "name": "pone.0012255-Lewis1",
-          "alternateName": "7",
-          "pmid": "10982748",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/10982748",
-          "@type": "ScholarlyArticle",
-          "headline": "A comparison of visual and auditory motion processing in human cerebral cortex.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 10,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Cereb Cortex"
-            }
-          },
-          "pageStart": 873,
-          "pageEnd": 888,
-          "datePublished": "1999-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "JW",
-            "familyName": "Lewis"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "MS",
-              "familyName": "Beauchamp"
-            },
-            {
-              "@type": "Person",
-              "givenName": "EA",
-              "familyName": "DeYoe"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Alink1",
-          "alternateName": "8",
-          "pmid": "18337398",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/18337398",
-          "@type": "ScholarlyArticle",
-          "headline": "Capture of auditory motion by vision is represented by an activation shift from auditory to visual motion cortex.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 28,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "J Neurosci"
-            }
-          },
-          "pageStart": 2690,
-          "pageEnd": 2697,
-          "datePublished": "2007-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "A",
-            "familyName": "Alink"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "W",
-              "familyName": "Singer"
-            },
-            {
-              "@type": "Person",
-              "givenName": "L",
-              "familyName": "Muckli"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Alais1",
-          "alternateName": "9",
-          "pmid": "14761661",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/14761661",
-          "@type": "ScholarlyArticle",
-          "headline": "The ventriloquist effect results from near-optimal bimodal integration.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 14,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Curr Biol"
-            }
-          },
-          "pageStart": 257,
-          "pageEnd": 262,
-          "datePublished": "2003-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "D",
-            "familyName": "Alais"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "D",
-              "familyName": "Burr"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Alais2",
-          "alternateName": "10",
-          "@type": "ScholarlyArticle",
-          "headline": "No direction-specific bimodal facilitation for audiovisual motion detection.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 19,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Brain Res: Cog Brain Res"
-            }
-          },
-          "pageStart": 185,
-          "pageEnd": 194,
-          "datePublished": "2003-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "D",
-            "familyName": "Alais"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "D",
-              "familyName": "Burr"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Meyer1",
-          "alternateName": "11",
-          "pmid": "11496148",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/11496148",
-          "@type": "ScholarlyArticle",
-          "headline": "Cross-modal integration of auditory and visual motion signals.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 12,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Neuroreport"
-            }
-          },
-          "pageStart": 2557,
-          "pageEnd": 2560,
-          "datePublished": "2000-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "GF",
-            "familyName": "Meyer"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "SM",
-              "familyName": "Wuerger"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-SotoFaraco1",
-          "alternateName": "12",
-          "pmid": "15053692",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/15053692",
-          "@type": "ScholarlyArticle",
-          "headline": "Cross-modal dynamic capture: Congruency effects in the perception of motion across sensory modalities.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 30,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "J Exp Psychol: Human Percept Perform"
-            }
-          },
-          "pageStart": 330,
-          "pageEnd": 345,
-          "datePublished": "2003-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "S",
-            "familyName": "Soto-Faraco"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "C",
-              "familyName": "Spence"
-            },
-            {
-              "@type": "Person",
-              "givenName": "A",
-              "familyName": "Kingstone"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Favreau1",
-          "alternateName": "13",
-          "pmid": "5061577",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/5061577",
-          "@type": "ScholarlyArticle",
-          "headline": "Motion perception: a color-contingent aftereffect.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 176,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Science"
-            }
-          },
-          "pageStart": 78,
-          "pageEnd": 79,
-          "datePublished": "1971-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "OE",
-            "familyName": "Favreau"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "VF",
-              "familyName": "Emerson"
-            },
-            {
-              "@type": "Person",
-              "givenName": "MC",
-              "familyName": "Corballis"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Dong1",
-          "alternateName": "14",
-          "pmid": "10491604",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/10491604",
-          "@type": "ScholarlyArticle",
-          "headline": "A contingent aftereffect in the auditory system.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 2,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Nature Neurosci"
-            }
-          },
-          "pageStart": 863,
-          "pageEnd": 865,
-          "datePublished": "1998-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "CJ",
-            "familyName": "Dong"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "NV",
-              "familyName": "Swindale"
-            },
-            {
-              "@type": "Person",
-              "givenName": "MS",
-              "familyName": "Cynader"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Vroomen1",
-          "alternateName": "15",
-          "pmid": "12807410",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/12807410",
-          "@type": "ScholarlyArticle",
-          "headline": "Visual motion influences the contingent auditory motion aftereffect.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 14,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Psychol Sci"
-            }
-          },
-          "pageStart": 357,
-          "pageEnd": 361,
-          "datePublished": "2002-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "J",
-            "familyName": "Vroomen"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "B",
-              "familyName": "de Gelder"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Haijiang1",
-          "alternateName": "16",
-          "pmid": "16387858",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/16387858",
-          "@type": "ScholarlyArticle",
-          "headline": "Demonstration of cue recruitment: Change in visual appearance by means of Pavlovian conditioning.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 103,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Proc Natl Acad Sci USA"
-            }
-          },
-          "pageStart": 483,
-          "pageEnd": 488,
-          "datePublished": "2005-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "Q",
-            "familyName": "Haijiang"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "JA",
-              "familyName": "Saunders"
-            },
-            {
-              "@type": "Person",
-              "givenName": "RW",
-              "familyName": "Stone"
-            },
-            {
-              "@type": "Person",
-              "givenName": "BT",
-              "familyName": "Backus"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Backus1",
-          "alternateName": "17",
-          "pmid": "17303207",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/17303207",
-          "@type": "ScholarlyArticle",
-          "headline": "Competition between newly recruited and pre-existing visual cues during the construction of visual appearance.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 47,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Vision Res"
-            }
-          },
-          "pageStart": 919,
-          "pageEnd": 924,
-          "datePublished": "2006-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "BT",
-            "familyName": "Backus"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "Q",
-              "familyName": "Haijiang"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Seitz1",
-          "alternateName": "18",
-          "pmid": "17317151",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/17317151",
-          "@type": "ScholarlyArticle",
-          "headline": "A common framework for perceptual learning.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 17,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Curr Opin Neurobiol"
-            }
-          },
-          "pageStart": 148,
-          "pageEnd": 153,
-          "datePublished": "2006-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "AR",
-            "familyName": "Seitz"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "HR",
-              "familyName": "Dinse"
-            }
-          ]
-        },
-        {
-          "name": "pone.0012255-Shams1",
-          "alternateName": "19",
-          "pmid": "18805039",
-          "url": "http://www.ncbi.nlm.nih.gov/pubmed/18805039",
-          "@type": "ScholarlyArticle",
-          "headline": "Benefits of multisensory learning.",
-          "isPartOf": {
-            "@type": "PublicationVolume",
-            "volumeNumber": 12,
-            "isPartOf": {
-              "@type": "Periodical",
-              "name": "Trends Cogn Sci"
-            }
-          },
-          "pageStart": 411,
-          "pageEnd": 417,
-          "datePublished": "2007-12-31T19:00:00.000Z",
-          "author": {
-            "@type": "Person",
-            "givenName": "L",
-            "familyName": "Shams"
-          },
-          "contributor": [
-            {
-              "@type": "Person",
-              "givenName": "AR",
-              "familyName": "Seitz"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "video": [
-    {
+      "@id": "plos-one-teramoto-2010/pone.0012255.s002",
+      "@type": "VideoObject",
       "name": "pone.0012255.s002",
       "alternateName": "Video S1",
       "caption": "Test Stimulus. Demonstration of test stimuli. A circle is blinking at a fixed location and each onset is synchronized to tones of alternating frequencies. (2.87 MB MOV)",
       "encoding": [
         {
-          "contentPath": "pone.0012255.s002.mov",
-          "encodingFormat": "video/quicktime"
+          "@type": "MediaObject",
+          "encodingFormat": "video/quicktime",
+          "filePath": "pone.0012255.s002.mov",
+          "contentSize": 2866416
         }
       ]
     },
     {
+      "@id": "plos-one-teramoto-2010/pone.0012255.s003",
+      "@type": "VideoObject",
       "name": "pone.0012255.s003",
       "alternateName": "Video S2",
       "caption": "Adapting Stimulus. Demonstration of adapting stimulus. Two white circles placed side by side are presented in alternation, producing visual apparent motion perception. The onsets of the two circles are synchronized to a tone burst of high (2 kHz) and low (500 Hz) frequency, respectively. (1.77 MB ZIP)",
       "encoding": [
         {
-          "contentPath": "pone.0012255.s003/125900_0_vid_7_l1pskw.mov",
-          "encodingFormat": "video/quicktime"
+          "@type": "MediaObject",
+          "encodingFormat": "video/quicktime",
+          "filePath": "pone.0012255.s003/125900_0_vid_7_l1pskw.mov",
+          "contentSize": 27654011
         }
       ]
     }

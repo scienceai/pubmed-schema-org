@@ -8,20 +8,18 @@ var root = path.join(path.dirname(__filename), 'fixtures', 'pubmed');
 
 describe('pubmed', function(){
 
-
   //http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=19237716&rettype=abstract&retmode=xml
   it('should parse a pubmed entry with MeSH (headings and suppl. chemical) and DataBank entries', function(done){
     var pmid = 19237716;
     fs.readFile(path.join(root, pmid + '.xml'), {encoding: 'utf8'}, function(err, xml){
-      if(err) throw err;     
+      if(err) throw err;
       var pkg = pubmed.parseXml(xml, pmid)
       //fs.writeFileSync(path.join(root, pmid + '.json'), JSON.stringify(pkg, null, 2));
       fs.readFile(path.join(root, pmid + '.json'), function(err, expected){
         assert.deepEqual(pkg, JSON.parse(expected));
         done();
-      });           
+      });
     });
   });
 
 });
-

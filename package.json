@@ -49,5 +49,6 @@
   "devDependencies": {
     "mocha": "~1.21.3",
     "js-beautify": "~1.5.1",
+    "traverse": "~0.6.6"
   }
 }
