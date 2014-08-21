@@ -26,10 +26,10 @@ var conf = {
   password: "user_a"
 };
 
-function getPkg(pmcid, pmid, callback){
+function getPkg(pmcid, opts, callback){
   if(arguments.length === 2){
-    callback = pmid;
-    pmid = undefined;
+    callback = opts;
+    opts = {};
   }
 
   temp.mkdir('__tests', function(err, dirPath) {
@@ -41,10 +41,14 @@ function getPkg(pmcid, pmid, callback){
       .pipe(tar.Extract({ path: dirPath, strip: 1 }));
 
     tgzStream.on('end', function() {
-      oapmc._pkg(pmcid, ldpm, dirPath, {pmid: pmid}, function(err, pkg, root, files, inlines, $doc){
-        if(err) return callback(err);;
+      oapmc._pkg(pmcid, ldpm, dirPath, opts, function(err, pkg, root, files, inlines, $doc){
+        if(err) return callback(err);
         traverse(pkg).forEach(function (x) { if (this.key === 'dateModified') this.remove(); });
-        callback(null, pkg, root, files, inlines, $doc);
+        if (opts.html) {
+          oapmc._html(pkg, root, files, inlines, $doc, callback);
+        } else {
+          callback(null, pkg);
+        }
       });
     });
   });
@@ -55,7 +59,6 @@ describe('pubmed central', function(){
   this.timeout(4000);
 
   describe('metadata', function(){
-
     //http://www.pubmedcentral.nih.gov/oai/oai.cgi?verb=GetRecord&identifier=oai:pubmedcentral.nih.gov:2924383&metadataPrefix=pmc
     it('should create a package.jsonld for a ms with a movie zipped and not treat it as a code bundle', function(done){
       getPkg('PMC2924383', function(err, pkg){
@@ -71,7 +74,7 @@ describe('pubmed central', function(){
 
     //http://www.pubmedcentral.nih.gov/oai/oai.cgi?verb=GetRecord&identifier=oai:pubmedcentral.nih.gov:2958805&metadataPrefix=pmc
     it('should create a package.jsonld for a ms with a lot of inline formulaes AND add pubmed annotation', function(done){
-      getPkg('PMC2958805', 2958805, function(err, pkg){
+      getPkg('PMC2958805', {pmid: 2958805}, function(err, pkg){
         if(err) throw err;
         //fs.writeFileSync(path.join(root, 'pmc2958805.json'), JSON.stringify(pkg, null, 2));
         fs.readFile(path.join(root, 'pmc2958805.json'), function(err, expected){
@@ -94,18 +97,16 @@ describe('pubmed central', function(){
         });
       });
     });
-
   });
 
-  describe.only('html body', function(){
+  describe('html body', function(){
     it('should parse body', function(done){
-      getPkg('PMC3532326', function(err, pkg, root, files, inlines, $doc){
-        oapmc._html(pkg, root, files, inlines, $doc, function(err, html){
+      getPkg('PMC3532326', {html:true}, function(err, pkg, html){
+        if(err) throw err;
+        //fs.writeFileSync(path.join(root, 'pmc3532326.html'), beautifyHtml(html, {indent_size: 2}));
+        fs.readFile(path.join(root, 'pmc3532326.html'), {encoding:'utf8'}, function(err, expected){
           if(err) throw err;
-          var $HOME = process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
-
-          fs.writeFileSync(path.join($HOME, 'Desktop/pm.html'), beautifyHtml(html, {indent_size: 2}), {encoding: 'utf8'});
-          //          console.log(html);
+          assert.deepEqual(beautifyHtml(html, {indent_size: 2}), expected);
           done();
         });
       });

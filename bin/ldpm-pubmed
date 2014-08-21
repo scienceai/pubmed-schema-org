@@ -40,11 +40,10 @@ if (argv._[0] === 'convert'){
   (function(){
     var id = argv._[1].toString();
 
-    ldpmPubmed.convert.call(ldpm, id, function(err, pkg){
+    ldpmPubmed.convert.call(ldpm, id, {html:true}, function(err, pkg, html){
       if(err) _fail(err);
-      fs.writeFileSync(path.resolve(ldpm.root, 'package.jsonld'), JSON.stringify(pkg, null, 2));
     });
-    
+
   })();
 
 } else if (argv._[0] === 'help'){
