@@ -3,8 +3,8 @@
 var util = require('util')
   , fs = require('fs')
   , path = require('path')
-  , ldpmPubmed = require('..')
-  , Ldpm = require('ldpm')
+  , pubmed = require('..')
+  , Dcat = require('dcat')
   , optimist = require('optimist')
   , colors = require('colors')
   , os = require('os');
@@ -12,7 +12,7 @@ var util = require('util')
 var argv = optimist
   .usage(
     [
-      'Usage: ldpm-pubmed <command> [options] where command is:',
+      'Usage: pubmed <command> [options] where command is:',
       '  - convert <id>',
       '  - help [command]',
     ].join(os.EOL)
@@ -32,10 +32,10 @@ if(argv.v){
   process.exit(0);
 }
 
-var ldpm = new Ldpm(process.cwd());
+var dcat = new Dcat(process.cwd());
 
 if(!argv.q){
-  ldpm.on('log', console.log);
+  dcat.on('log', console.log);
 }
 
 if (argv._[0] === 'convert'){
@@ -43,9 +43,9 @@ if (argv._[0] === 'convert'){
   (function(){
     var id = argv._[1].toString();
 
-    ldpmPubmed.convert.call(ldpm, id, {html:true}, function(err, pkg, html){
+    pubmed.convert.call(dcat, id, {html:true}, function(err, pkg, html){
       if(err) _fail(err);
-      fs.writeFile(path.join(ldpm.root, 'JSONLD'), JSON.stringify(pkg, null, 2), _fail);
+      fs.writeFile(path.join(dcat.root, 'JSONLD'), JSON.stringify(pkg, null, 2), _fail);
     });
 
   })();
@@ -62,7 +62,7 @@ if (argv._[0] === 'convert'){
 
 function _fail(err){
   if(err){
-    console.error('ldpm-pubmed'.grey +  ' ERR! '.red + err.message + (('code' in err) ? ' (' + err.code + ')': ''));
+    console.error('pubmed'.grey +  ' ERR! '.red + err.message + (('code' in err) ? ' (' + err.code + ')': ''));
     process.exit(1);
   }
 };

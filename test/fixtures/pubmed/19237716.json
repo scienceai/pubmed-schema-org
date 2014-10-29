@@ -1,5 +1,5 @@
 {
-  "@context": "https://registry.standardanalytics.io/context.jsonld",
+  "@context": "https://dcat.io",
   "@id": "archinternmed-christen-2009",
   "@type": "MedicalScholarlyArticle",
   "version": "0.0.0",

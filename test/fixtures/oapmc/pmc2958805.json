@@ -1,5 +1,5 @@
 {
-  "@context": "https://registry.standardanalytics.io/context.jsonld",
+  "@context": "https://dcat.io",
   "@id": "plos-comput-biol-rapoport-2010",
   "@type": "MedicalScholarlyArticle",
   "version": "0.0.0",

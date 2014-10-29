@@ -6,7 +6,7 @@ var url = require('url')
   , jats = require('./lib/jats');
 
 /**
- * 'this' is an Ldpm instance
+ * 'this' is a Dcat instance
  */
 function convert(id, opts, callback){
 
@@ -43,7 +43,7 @@ function convert(id, opts, callback){
       if (opts.pmcid){
         oapmc.call(this, opts.pmcid, opts, function(err, pkg, html){//passing a pmid (if not undefined => add pubmed annotation)
           if (err && opts.pmid) {
-            this.emit('log', 'ldpm-pubmed'.grey +  ' ERR! '.red + err.message + (('code' in err) ? ' (' + err.code + ')': ''));
+            this.emit('log', 'pubmed'.grey +  ' ERR! '.red + err.message + (('code' in err) ? ' (' + err.code + ')': ''));
             pubmed.call(this, opts.pmid, opts, callback);
           } else {
             callback(err, pkg, html);

@@ -5,7 +5,7 @@ var path = require('path')
   , assert = require('assert')
   , fs = require('fs')
   , temp = require('temp')
-  , Ldpm = require('ldpm')
+  , Dcat = require('dcat')
   , DOMParser = require('xmldom').DOMParser
   , beautifyHtml = require('js-beautify').html
   , traverse = require('traverse')
@@ -34,14 +34,14 @@ function getPkg(pmcid, opts, callback){
 
   temp.mkdir('__tests', function(err, dirPath) {
     if(err) throw err;
-    var ldpm = new Ldpm(conf, dirPath);
+    var dcat = new Dcat(conf, dirPath);
 
     var tgzStream = fs.createReadStream(path.join(root, pmcid.toLowerCase() + '.tar.gz'))
       .pipe(zlib.Unzip())
       .pipe(tar.Extract({ path: dirPath, strip: 1 }));
 
     tgzStream.on('end', function() {
-      oapmc._pkg(pmcid, ldpm, dirPath, opts, function(err, pkg, root, files, inlines, $doc){
+      oapmc._pkg(pmcid, dcat, dirPath, opts, function(err, pkg, root, files, inlines, $doc){
         if(err) return callback(err);
         traverse(pkg).forEach(function(x) { if (this.key === 'dateModified') this.remove(); });
         if (opts.html) {
@@ -103,6 +103,7 @@ describe('pubmed central', function(){
     it('should parse body', function(done){
       getPkg('PMC3532326', {html:true}, function(err, pkg, html){
         if(err) throw err;
+        //look at http://rdfa.info/play/ to check the structure of the RDFa
         //fs.writeFileSync(path.join(root, 'pmc3532326.html'), beautifyHtml(html, {indent_size: 2}));
         fs.readFile(path.join(root, 'pmc3532326.html'), {encoding:'utf8'}, function(err, expected){
           if(err) throw err;
