@@ -35,7 +35,6 @@ function getPkg(pmcid, opts, callback){
   temp.mkdir('__tests', function(err, dirPath) {
     if(err) throw err;
     var dcat = new Dcat(conf, dirPath);
-
     var tgzStream = fs.createReadStream(path.join(root, pmcid.toLowerCase() + '.tar.gz'))
       .pipe(zlib.Unzip())
       .pipe(tar.Extract({ path: dirPath, strip: 1 }));
